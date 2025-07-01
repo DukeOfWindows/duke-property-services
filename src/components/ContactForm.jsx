@@ -3,9 +3,11 @@ import React from 'react';
 export default function ContactForm() {
   return (
     <form
-      action="https://formspree.io/f/xqabnavj"
-      method="POST"
-      className="bg-white p-6 rounded-xl shadow-md space-y-4 max-w-2xl mx-auto"
+      action="https://usebasin.com/f/6bdb64a8c007"
+  method="POST"
+  encType="multipart/form-data"
+  acceptCharset="UTF-8"
+  className="...tailwind-styles..."
     >
       <h2 className="text-3xl font-heading font-bold text-duke text-center mb-2">
         Request a Free Quote
