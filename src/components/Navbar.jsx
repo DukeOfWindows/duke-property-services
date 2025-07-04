@@ -136,75 +136,76 @@ export default function Navbar() {
           onClick={handleClose}
         ></div>
       )}
-
-      {/* Slide-Out Drawer */}
-      <div
-        className={`fixed top-0 right-0 h-full w-72 bg-white shadow-lg z-50 transform transition-transform duration-300 ${
-          menuOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
-      >
-        <div className="flex justify-between items-center px-4 py-4 border-b">
-          <span className="font-bold text-lg text-duke">Menu</span>
-          <button onClick={handleClose}>
-            <XMarkIcon className="h-6 w-6" />
-          </button>
-        </div>
-
-
-<div className="block md:hidden mt-8 px-6 overflow-y-auto h-[calc(100vh-4rem)]">
-  <div className="flex flex-col gap-3 justify-center">
-    <CTAButton href="/quote" className="w-auto font-body">
-      Request Quote
-    </CTAButton>
-<a
-  href="tel:+64220352725"
-  className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
+{/* Slide-Out Drawer */}
+<div
+  className={`fixed top-0 right-0 h-full w-72 bg-white shadow-lg z-50 transition-transform duration-300 ${
+    menuOpen ? 'translate-x-0' : 'translate-x-full'
+  }`}
 >
-  022 035 2725
-</a>
-<a
-  href="mailto:hello@dukeservices.co.nz"
-  className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
->
-  hello@dukeservices.co.nz
-</a>
+  {/* Header */}
+  <div className="flex justify-between items-center px-4 py-4 border-b">
+    <span className="font-bold text-lg text-duke">Menu</span>
+    <button onClick={handleClose}>
+      <XMarkIcon className="h-6 w-6" />
+    </button>
   </div>
-<p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">Residential</p>
-          <DropdownLinks
-            hoverColor="duke-blue"
-            items={[
-              { label: 'Window Cleaning', href: '/residential-window-cleaning' },
-              { label: 'Gutter Cleaning', href: '/residential-gutter-cleaning' },
-              { label: 'House Washing', href: '/residential-house-washing' },
-              { label: 'Pressure Washing', href: '/residential-pressure-washing' },
-              { label: 'Interior Window Cleaning', href: '/residential-interior-window-cleaning' },
-              { label: 'Roof Treatment', href: '/residential-roof-treatment' },
-              { label: 'Deck Washing', href: '/residential-deck-washing' },
-              { label: 'Driveway Cleaning', href: '/residential-driveway-cleaning' },
-            ]}
-          />
 
-          <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">Commercial</p>
-          <DropdownLinks
-            hoverColor="duke-dark"
-            items={[
-              { label: 'Window Cleaning', href: '/commercial-window-cleaning' },
-              { label: 'Building Washing', href: '/commercial-building-washing' },
-              { label: 'Pressure Washing', href: '/commercial-pressure-washing' },
-              { label: 'Gutter Cleaning', href: '/commercial-gutter-cleaning' },
-            ]}
-          />
+  {/* ✅ Scrollable Content Container */}
+  <div className="h-[calc(100vh-4rem)] overflow-y-auto px-6 py-4">
+    <div className="flex flex-col gap-3 justify-center">
+      <CTAButton href="/quote" className="w-auto font-body">
+        Request Quote
+      </CTAButton>
+      <a
+        href="tel:+64220352725"
+        className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
+      >
+        022 035 2725
+      </a>
+      <a
+        href="mailto:hello@dukeservices.co.nz"
+        className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
+      >
+        hello@dukeservices.co.nz
+      </a>
+    </div>
 
-          <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">About</p>
-          <DropdownLinks
-            hoverColor="duke-brown"
-            items={[
-              { label: 'Meet the Team', href: '/about' },
-              { label: 'Testimonials', href: '#testimonials' },
-            ]}
-          />
-        </div>
-      </div>
+    <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">Residential</p>
+    <DropdownLinks
+      hoverColor="duke-blue"
+      items={[
+        { label: 'Window Cleaning', href: '/residential-window-cleaning' },
+        { label: 'Gutter Cleaning', href: '/residential-gutter-cleaning' },
+        { label: 'House Washing', href: '/residential-house-washing' },
+        { label: 'Pressure Washing', href: '/residential-pressure-washing' },
+        { label: 'Interior Window Cleaning', href: '/residential-interior-window-cleaning' },
+        { label: 'Roof Treatment', href: '/residential-roof-treatment' },
+        { label: 'Deck Washing', href: '/residential-deck-washing' },
+        { label: 'Driveway Cleaning', href: '/residential-driveway-cleaning' },
+      ]}
+    />
+
+    <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">Commercial</p>
+    <DropdownLinks
+      hoverColor="duke-dark"
+      items={[
+        { label: 'Window Cleaning', href: '/commercial-window-cleaning' },
+        { label: 'Building Washing', href: '/commercial-building-washing' },
+        { label: 'Pressure Washing', href: '/commercial-pressure-washing' },
+        { label: 'Gutter Cleaning', href: '/commercial-gutter-cleaning' },
+      ]}
+    />
+
+    <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">About</p>
+    <DropdownLinks
+      hoverColor="duke-brown"
+      items={[
+        { label: 'Meet the Team', href: '/about' },
+        { label: 'Testimonials', href: '#testimonials' },
+      ]}
+    />
+  </div>
+</div>
     </>
   );
 }
