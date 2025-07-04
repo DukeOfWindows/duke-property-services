@@ -78,7 +78,11 @@ export default function Navbar() {
       <nav className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <img src={logo} alt="Duke Property Services logo" className="h-10" />
+<img
+  src={logo}
+  alt="Duke Property Services logo"
+  className="h-10 md:h-14 lg:h-16 transition-all duration-200"
+/>
           </Link>
 
         {/* Desktop Menu */}
@@ -117,7 +121,24 @@ export default function Navbar() {
               { label: 'Testimonials', href: '#testimonials' },
             ]}
           />
-          <CTAButton href="/quote" />
+<div className="flex items-center space-x-4">
+  <CTAButton href="/quote" className="font-body" />
+
+  <div className="flex flex-col text-sm font-body text-right leading-tight">
+    <a
+      href="tel:+64220352725"
+      className="text-duke-dark hover:text-duke-blue transition-colors duration-200"
+    >
+      022 035 2725
+    </a>
+    <a
+      href="mailto:hello@dukeservices.co.nz"
+      className="text-duke-dark hover:text-duke-blue transition-colors duration-200"
+    >
+      hello@dukeservices.co.nz
+    </a>
+  </div>
+</div>
         </div>
 
           {/* Mobile Toggle */}
