@@ -53,17 +53,14 @@ const DropdownLinks = ({ items, hoverColor }) => (
           <Tag
             to={isInternal ? item.href : undefined}
             href={!isInternal ? item.href : undefined}
-            className={`block text-lg font-medium ${
-              hoverColor === 'duke-blue' ? 'text-duke-blue' : 'text-duke-dark'
-            } hover:underline`}
+className={`block text-lg font-medium ${
+  hoverColor === 'duke-blue'
+    ? 'text-duke-blue'
+    : hoverColor === 'duke-brown'
+    ? 'text-duke-brown'
+    : 'text-duke-dark'
+} hover:underline`}
           >
-            <span
-              className={`mr-2 ${
-                hoverColor === 'duke-blue' ? 'text-duke-blue' : 'text-duke-dark'
-              }`}
-            >
-              &gt;
-            </span>
             {item.label}
           </Tag>
         </li>
@@ -154,19 +151,18 @@ export default function Navbar() {
         </div>
 
 
-        <div className="px-6 py-4 overflow-y-auto h-[calc(100%-4rem)]">
-          <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-  <CTAButton href="/quote" className="w-full sm:w-auto">Request Quote</CTAButton>
-</div>
-
-<div className="block md:hidden text-left mt-4 space-y-3 px-4">
-  <CTAButton href="tel:+64220352725" className="w-full sm:w-auto bg-duke-dark hover:bg-duke-blue">
-    022 035 2725
-  </CTAButton>
-  <CTAButton href="mailto:hello@dukeservices.co.nz" className="w-full sm:w-auto font-body bg-duke-dark hover:bg-duke-blue">
-    hello@dukeservices.co.nz
-  </CTAButton>
-</div>
+<div className="block md:hidden mt-6 px-6">
+  <div className="flex flex-col gap-3 justify-center">
+    <CTAButton href="/quote" className="w-auto font-body">
+      Request Quote
+    </CTAButton>
+    <CTAButton href="tel:+64220352725" className="w-auto font-body bg-duke-dark hover:bg-duke-blue">
+      022 035 2725
+    </CTAButton>
+    <CTAButton href="mailto:hello@dukeservices.co.nz" className="w-auto font-body bg-duke-dark hover:bg-duke-blue">
+      hello@dukeservices.co.nz
+    </CTAButton>
+  </div>
           <p className="uppercase text-sm font-bold text-gray-500 mb-2">Residential</p>
           <DropdownLinks
             hoverColor="duke-blue"
