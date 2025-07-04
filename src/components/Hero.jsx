@@ -11,6 +11,7 @@ export default function ResidentialHero({
   pageTitle = "Kapiti Coast Exterior Cleaning | Duke Property Services",
   metaDescription = "Professional residential exterior cleaning including window washing, house soft washing, gutter cleaning and more across the Kapiti Coast.",
   children,
+  backgroundPosition,
 }) {
   return (
     <>

@@ -20,7 +20,6 @@ export default function ResidentialTemplate({
   seoTitle,
   seoDescription,
   hero,
-  sidebar,
   info,
   benefits,
   tools,
@@ -48,6 +47,7 @@ export default function ResidentialTemplate({
           eyebrow={hero.eyebrow}
           title={hero.title}
           description={hero.description}
+            backgroundPosition={hero.backgroundPosition} 
         >
         </Hero>
 
