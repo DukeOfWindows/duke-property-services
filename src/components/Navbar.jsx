@@ -152,7 +152,18 @@ export default function Navbar() {
             <XMarkIcon className="h-6 w-6" />
           </button>
         </div>
-
+<div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+  <CTAButton href="/quote" className="w-full sm:w-auto">Request Quote</CTAButton>
+</div>
+<div className="block md:hidden text-center mt-4 space-y-2 text-sm">
+  <a href="tel:+64220352725" className="text-duke-dark underline hover:text-duke-blue">
+    022 035 2725
+  </a>
+  <br />
+  <a href="mailto:hello@dukeservices.co.nz" className="text-duke-dark underline hover:text-duke-blue">
+    hello@dukeservices.co.nz
+  </a>
+</div>
         <div className="px-6 py-4 overflow-y-auto h-[calc(100%-4rem)]">
           <p className="uppercase text-sm font-bold text-gray-500 mb-2">Residential</p>
           <DropdownLinks
@@ -182,18 +193,12 @@ export default function Navbar() {
 
           <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">About</p>
           <DropdownLinks
-            hoverColor="duke-dark"
+            hoverColor="duke-brown"
             items={[
               { label: 'Meet the Team', href: '/about' },
               { label: 'Testimonials', href: '#testimonials' },
             ]}
           />
-<div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
-  <CTAButton href="/quote" className="w-full sm:w-auto">Request Quote</CTAButton>
-  <CTAButton href="tel:+64220352725" className="w-full sm:w-auto bg-duke-dark hover:bg-duke-blue">
-    Call Now
-  </CTAButton>
-</div>
         </div>
       </div>
     </>
