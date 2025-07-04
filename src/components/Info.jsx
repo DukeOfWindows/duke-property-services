@@ -11,7 +11,7 @@ export default function ResidentialInfo({
 }) {
   return (
     <section className="bg-white text-duke-dark py-16">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-start gap-10">
+<div className="max-w-7xl mx-auto px-4 md:px-6 flex flex-col-reverse md:flex-row items-start gap-10">
         
         {/* Image Side */}
         <motion.div
@@ -36,15 +36,9 @@ export default function ResidentialInfo({
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: 'easeOut' }}
-            viewport={{ once: true }}
-            className="text-3xl md:text-4xl font-cursive font-bold text-duke-dark mb-8 inline-block relative after:content-[''] after:block after:w-full after:h-[3px] after:bg-duke-brown after:rounded-full after:mt-2"
-          >
-            {heading}
-          </motion.h2>
+<h2 className="text-3xl md:text-4xl font-cursive font-bold text-duke-dark mb-8 inline-block relative after:content-[''] after:block after:w-full after:h-[3px] after:bg-duke-brown after:rounded-full after:mt-2">
+  {heading}
+</h2>
 
           {paragraphs.map((text, i) => (
             <p key={i} className="font-body text-gray-700 mb-4">{text}</p>
