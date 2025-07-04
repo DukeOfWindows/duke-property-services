@@ -151,7 +151,7 @@ export default function Navbar() {
   </div>
 
   {/* ✅ Scrollable Content Container */}
-  <div className="h-[calc(100vh-4rem)] overflow-y-auto px-6 py-4">
+  <div className="h-[calc(100dvh-4rem)] overflow-y-auto px-6 py-4">
     <div className="flex flex-col gap-3 justify-center">
       <CTAButton href="/quote" className="w-auto font-body">
         Request Quote
