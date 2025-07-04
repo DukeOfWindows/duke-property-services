@@ -28,7 +28,8 @@ export default function ResidentialPressureWashing() {
         title: "Pressure Washing",
         description:
           "Blast away years of grime with our professional high-pressure washing for driveways, concrete, pavers, and more.",
-      }}
+      backgroundPosition: "center bottom"
+        }}
 
       info={{
         image: tallPressure,

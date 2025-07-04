@@ -27,7 +27,8 @@ export default function ResidentialHouseWashing() {
         title: "House Washing",
         description:
           "Gentle on surfaces, tough on grime. Our soft house washing service brings your home’s exterior back to life.",
-      }}
+       backgroundPosition: "center bottom"
+        }}
 
       info={{
         image: tallHouse,
