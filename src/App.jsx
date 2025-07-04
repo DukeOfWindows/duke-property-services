@@ -69,8 +69,11 @@ function App() {
       <Navbar />
       <main>
 <section
-  className="h-[75vh] md:h-screen bg-[length:150%] md:bg-cover bg-top md:bg-center bg-no-repeat md:bg-fixed text-white flex items-center justify-center relative"
-  style={{ backgroundImage: `url(${heroImage})` }}
+  className="h-[90vh] md:h-screen bg-top md:bg-center bg-cover md:bg-fixed bg-no-repeat text-white flex items-center justify-center relative"
+  style={{
+    backgroundImage: `url(${heroImage})`,
+    backgroundSize: 'cover',
+  }}
   aria-label="Hero banner showing clean exterior surface"
 >
           <div className="absolute inset-0 bg-black bg-opacity-60" aria-hidden="true"></div>
