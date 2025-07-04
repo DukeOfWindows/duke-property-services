@@ -114,7 +114,7 @@ export default function Navbar() {
 
           <Dropdown
             label="About"
-            hoverColor="duke-blue"
+            hoverColor="duke-brown"
             items={[
               { label: 'Meet the Team', href: '/about' },
               { label: 'Testimonials', href: '#testimonials' },
