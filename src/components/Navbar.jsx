@@ -170,7 +170,9 @@ export default function Navbar() {
       </a>
     </div>
 
-    <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">Residential</p>
+<p className="uppercase text-sm font-bold text-gray-700 mt-6 mb-2 inline-block relative after:content-[''] after:block after:w-6 after:h-[2px] after:bg-duke-brown after:rounded-full after:mt-1">
+  Residential
+</p>
     <DropdownLinks
       hoverColor="duke-blue"
       items={[
@@ -185,7 +187,9 @@ export default function Navbar() {
       ]}
     />
 
-    <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">Commercial</p>
+<p className="uppercase text-sm font-bold text-gray-700 mt-6 mb-2 inline-block relative after:content-[''] after:block after:w-6 after:h-[2px] after:bg-duke-brown after:rounded-full after:mt-1">
+  Commercial
+</p>
     <DropdownLinks
       hoverColor="duke-dark"
       items={[
@@ -196,7 +200,9 @@ export default function Navbar() {
       ]}
     />
 
-    <p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">About</p>
+<p className="uppercase text-sm font-bold text-gray-700 mt-6 mb-2 inline-block relative after:content-[''] after:block after:w-6 after:h-[2px] after:bg-duke-brown after:rounded-full after:mt-1">
+  About
+</p>
     <DropdownLinks
       hoverColor="duke-brown"
       items={[
