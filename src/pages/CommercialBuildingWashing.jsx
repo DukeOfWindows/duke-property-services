@@ -33,12 +33,7 @@ export default function CommercialBuildingWashing() {
             <h3 className="font-heading text-3xl mb-4 inline-block relative after:content-[''] after:block after:w-full after:h-[2px] after:bg-white after:rounded-full after:mt-1">
               Commercial Services
             </h3>
-            <ul className="space-y-2 font-body text-white">
-              <li><a href="/commercial-window-cleaning" className="hover:underline">Window Cleaning</a></li>
-              <li><a href="/commercial-building-washing" className="hover:underline">Building Washing</a></li>
-              <li><a href="/commercial-pressure-washing" className="hover:underline">Pressure Washing</a></li>
-              <li><a href="/commercial-gutter-cleaning" className="hover:underline">Gutter Cleaning</a></li>
-            </ul>
+      
           </div>
         }
 
