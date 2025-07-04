@@ -155,7 +155,7 @@ export default function Navbar() {
 <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
   <CTAButton href="/quote" className="w-full sm:w-auto">Request Quote</CTAButton>
 </div>
-<div className="block md:hidden text-center mt-4 space-y-2 text-sm">
+<div className="block md:hidden text-left mt-4 space-y-2 text-sm">
   <a href="tel:+64220352725" className="text-duke-dark underline hover:text-duke-blue">
     022 035 2725
   </a>
