@@ -20,7 +20,6 @@ export default function CommercialTemplate({
   seoTitle,
   seoDescription,
   hero,
-  sidebar,
   info,
   benefits,
   tools,
@@ -48,7 +47,6 @@ export default function CommercialTemplate({
           title={hero.title}
           description={hero.description}
         >
-          {sidebar}
         </HeroCommercial>
 
         <InfoCommercial

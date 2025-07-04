@@ -49,7 +49,6 @@ export default function ResidentialTemplate({
           title={hero.title}
           description={hero.description}
         >
-          {sidebar}
         </Hero>
 
         <Info
