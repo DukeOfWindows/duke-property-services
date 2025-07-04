@@ -61,8 +61,10 @@ export default function InfoCommercial({
                 ))}
               </ul>
             </>
+            
           )}
         </motion.div>
+        <CTAButtonCommercial />
       </div>
     </section>
   );

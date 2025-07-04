@@ -28,15 +28,6 @@ export default function CommercialBuildingWashing() {
             "Restore your building's exterior with low-pressure soft washing — safe for signage, paintwork, panels and cladding.",
         }}
 
-        sidebar={
-          <div className="mt-auto self-end bg-duke-dark text-white rounded-2xl shadow-lg p-6 w-full max-w-xs mb-6 border-2 border-duke-brown">
-            <h3 className="font-heading text-3xl mb-4 inline-block relative after:content-[''] after:block after:w-full after:h-[2px] after:bg-white after:rounded-full after:mt-1">
-              Commercial Services
-            </h3>
-      
-          </div>
-        }
-
         info={{
           image: washBuilding,
           heading: 'Commercial Building Washing',
