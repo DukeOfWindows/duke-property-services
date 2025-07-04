@@ -151,19 +151,25 @@ export default function Navbar() {
         </div>
 
 
-<div className="block md:hidden mt-6 px-6">
+<div className="block md:hidden mt-8 px-6">
   <div className="flex flex-col gap-3 justify-center">
     <CTAButton href="/quote" className="w-auto font-body">
       Request Quote
     </CTAButton>
-    <CTAButton href="tel:+64220352725" className="w-auto font-body bg-duke-dark hover:bg-duke-blue">
-      022 035 2725
-    </CTAButton>
-    <CTAButton href="mailto:hello@dukeservices.co.nz" className="w-auto font-body bg-duke-dark hover:bg-duke-blue">
-      hello@dukeservices.co.nz
-    </CTAButton>
+<a
+  href="tel:+64220352725"
+  className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
+>
+  022 035 2725
+</a>
+<a
+  href="mailto:hello@dukeservices.co.nz"
+  className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
+>
+  hello@dukeservices.co.nz
+</a>
   </div>
-          <p className="uppercase text-sm font-bold text-gray-500 mb-2">Residential</p>
+<p className="uppercase text-sm font-bold text-gray-500 mt-6 mb-2">Residential</p>
           <DropdownLinks
             hoverColor="duke-blue"
             items={[
