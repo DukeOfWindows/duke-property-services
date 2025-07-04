@@ -151,7 +151,7 @@ export default function Navbar() {
         </div>
 
 
-<div className="block md:hidden mt-8 px-6">
+<div className="block md:hidden mt-8 px-6 overflow-y-auto h-[calc(100vh-4rem)]">
   <div className="flex flex-col gap-3 justify-center">
     <CTAButton href="/quote" className="w-auto font-body">
       Request Quote
