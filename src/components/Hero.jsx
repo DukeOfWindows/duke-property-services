@@ -21,7 +21,7 @@ export default function ResidentialHero({
 
    <section
         className="relative h-[60vh] md:h-[70vh] bg-top md:bg-center bg-no-repeat bg-cover md:bg-fixed flex items-center text-white"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+        style={{ backgroundImage: `url(${backgroundImage})`, backgroundPosition: backgroundPosition, }}
       >
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>

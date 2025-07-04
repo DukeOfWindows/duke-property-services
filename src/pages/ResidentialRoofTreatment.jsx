@@ -25,6 +25,7 @@ export default function ResidentialRoofTreatment() {
         eyebrow: "Residential",
         title: "Roof Treatment - Moss & Mould",
         description: "Say goodbye to moss and lichen. Our moss & mould treatment keeps your roof protected — no water blasting needed.",
+    backgroundPosition: "center bottom"
       }}
 
       info={{
