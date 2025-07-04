@@ -28,10 +28,12 @@ export default function ResidentialInfo({
           />
         </motion.div>
 
-<h2 className="text-3xl md:text-4xl font-cursive font-bold text-duke-dark mb-8 inline-block relative after:content-[''] after:block after:w-full after:h-[3px] after:bg-duke-brown after:rounded-full after:mt-2">
-  {heading}
-</h2>
         {/* Text Side */}
+<div className="w-full md:w-1/2">
+    <h2 className="text-3xl md:text-4xl font-cursive font-bold text-duke-dark mb-8 inline-block relative after:content-[''] after:block after:w-full after:h-[3px] after:bg-duke-brown after:rounded-full after:mt-2">
+      {heading}
+    </h2>
+
         <motion.div
           className="w-full md:w-1/2"
           initial={{ opacity: 0, x: 50 }}
@@ -56,6 +58,7 @@ export default function ResidentialInfo({
             </>
           )}
         </motion.div>
+      </div>
       </div>
     </section>
   );
