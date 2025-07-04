@@ -25,6 +25,7 @@ export default function HeroCommercial({
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
+
         {/* Content */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 flex flex-col h-full">
           <div className="flex-1 flex items-center sm:items-center sm:text-center">
@@ -40,7 +41,6 @@ export default function HeroCommercial({
               </p>
               <h1 className="text-4xl md:text-5xl font-heading font-extrabold mb-4">{title}</h1>
               <p className="text-lg font-body mb-6">{description}</p>
-            
             </motion.div>
           </div>
 
