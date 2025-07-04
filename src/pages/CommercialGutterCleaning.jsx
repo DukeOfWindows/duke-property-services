@@ -29,20 +29,6 @@ export default function CommercialGutterCleaning() {
             'Avoid costly water damage and keep your commercial property draining properly with our safe, high-reach gutter cleaning service.',
         }}
 
-        sidebar={
-          <div className="mt-auto self-end bg-duke-dark text-white rounded-2xl shadow-lg p-6 w-full max-w-xs mb-6 border-2 border-duke-brown">
-            <h3 className="font-heading text-3xl mb-4 inline-block relative after:content-[''] after:block after:w-full after:h-[2px] after:bg-white after:rounded-full after:mt-1">
-              Commercial Services
-            </h3>
-            <ul className="space-y-2 font-body text-white">
-              <li><a href="/commercial-window-cleaning" className="hover:underline">Window Cleaning</a></li>
-              <li><a href="/commercial-building-washing" className="hover:underline">Building Washing</a></li>
-              <li><a href="/commercial-pressure-washing" className="hover:underline">Pressure Washing</a></li>
-              <li><a href="/commercial-gutter-cleaning" className="hover:underline">Gutter Cleaning</a></li>
-            </ul>
-          </div>
-        }
-
         info={{
           image: gutterImg,
           heading: 'Commercial Gutter Cleaning',

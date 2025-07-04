@@ -27,23 +27,6 @@ export default function ResidentialDeckWashing() {
         description: "Revive your outdoor living space with our soft-wash deck cleaning service — safe on wood, tough on grime.",
       }}
 
-      sidebar={
-        <div className="mt-auto self-end bg-white text-duke-dark rounded-2xl shadow-lg p-6 w-full max-w-xs mb-6">
-          <h3 className="font-heading text-3xl mb-4 inline-block relative after:content-[''] after:block after:w-full after:h-[2px] after:bg-duke-brown after:rounded-full after:mt-1">
-            Residential
-          </h3>
-          <ul className="space-y-2 font-body">
-            <li><Link to="/residential-window-cleaning" className="hover:underline text-duke-dark">Window Cleaning</Link></li>
-            <li><Link to="/residential-gutter-cleaning" className="hover:underline text-duke-dark">Gutter Cleaning</Link></li>
-            <li><Link to="/residential-house-washing" className="hover:underline text-duke-dark">House Washing</Link></li>
-            <li><Link to="/residential-pressure-washing" className="hover:underline text-duke-dark">Pressure Washing</Link></li>
-            <li><Link to="/residential-interior-window-cleaning" className="hover:underline text-duke-dark">Interior Window Cleaning</Link></li>
-            <li><Link to="/residential-roof-treatment" className="hover:underline text-duke-dark">Roof Treatment - Moss & Mould</Link></li>
-            <li><Link to="/residential-driveway-cleaning" className="hover:underline text-duke-dark">Driveway Cleaning</Link></li>
-          </ul>
-        </div>
-      }
-
       info={{
         image: tallDeck,
         heading: "Residential Deck Washing",

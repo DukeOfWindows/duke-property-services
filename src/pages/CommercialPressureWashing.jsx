@@ -27,20 +27,6 @@ export default function CommercialPressureWashing() {
         description: "Keep your building, carpark, and public areas safe and sharp with professional-grade commercial pressure washing."
       }}
 
-      sidebar={
-        <div className="mt-auto self-end bg-duke-dark text-white rounded-2xl shadow-lg p-6 w-full max-w-xs mb-6 border-2 border-duke-brown">
-          <h3 className="font-heading text-3xl mb-4 inline-block relative after:content-[''] after:block after:w-full after:h-[2px] after:bg-white after:rounded-full after:mt-1">
-            Commercial Services
-          </h3>
-          <ul className="space-y-2 font-body text-white">
-            <li><a href="/commercial-window-cleaning" className="hover:underline"><span className="text-duke-blue mr-1">&gt;</span> Window Cleaning</a></li>
-            <li><a href="/commercial-building-washing" className="hover:underline"><span className="text-duke-blue mr-1">&gt;</span> Building Washing</a></li>
-            <li><a href="/commercial-pressure-washing" className="hover:underline"><span className="text-duke-blue mr-1">&gt;</span> Pressure Washing</a></li>
-            <li><a href="/commercial-gutter-cleaning" className="hover:underline"><span className="text-duke-blue mr-1">&gt;</span> Gutter Cleaning</a></li>
-          </ul>
-        </div>
-      }
-
       info={{
         image: pressuresquareImg,
         heading: "Commercial Pressure Washing",

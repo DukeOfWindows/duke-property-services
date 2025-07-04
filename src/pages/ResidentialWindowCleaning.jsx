@@ -28,23 +28,6 @@ export default function ResidentialWindowCleaning() {
           description: "Transform your windows from shabby to shiny with our interior and exterior window cleaning service."
         }}
 
-        sidebar={
-          <div className="mt-auto self-end bg-white text-duke-dark rounded-2xl shadow-lg p-6 w-full max-w-xs mb-6">
-            <h3 className="font-heading text-3xl mb-4 inline-block relative after:content-[''] after:block after:w-full after:h-[2px] after:bg-duke-brown after:rounded-full after:mt-1">
-              Residential
-            </h3>
-            <ul className="space-y-2 font-body">
-              <li><Link to="/residential-gutter-cleaning" className="hover:underline"><span className="text-duke-brown mr-1">&gt;</span> Gutter Cleaning</Link></li>
-              <li><Link to="/residential-house-washing" className="hover:underline"><span className="text-duke-brown mr-1">&gt;</span> House Washing</Link></li>
-              <li><Link to="/residential-pressure-washing" className="hover:underline"><span className="text-duke-brown mr-1">&gt;</span> Pressure Washing</Link></li>
-              <li><Link to="/residential-interior-window-cleaning" className="hover:underline"><span className="text-duke-brown mr-1">&gt;</span> Interior Window Cleaning</Link></li>
-              <li><Link to="/residential-roof-treatment" className="hover:underline"><span className="text-duke-brown mr-1">&gt;</span> Roof Treatment - Moss & Mould</Link></li>
-              <li><Link to="/residential-deck-washing" className="hover:underline"><span className="text-duke-brown mr-1">&gt;</span> Deck Washing</Link></li>
-              <li><Link to="/residential-driveway-cleaning" className="hover:underline"><span className="text-duke-brown mr-1">&gt;</span> Driveway Cleaning</Link></li>
-            </ul>
-          </div>
-        }
-
         info={{
           image: tallWindow,
           heading: "Residential Window Cleaning",
