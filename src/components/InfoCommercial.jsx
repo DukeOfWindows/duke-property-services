@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import CTAButtonCommercial from './CTAButtonCommercial';
+
 export default function InfoCommercial({
   image,
   imageAlt = "Commercial exterior cleaning example",
@@ -64,7 +64,7 @@ export default function InfoCommercial({
             
           )}
         </motion.div>
-        <CTAButtonCommercial />
+
       </div>
     </section>
   );
