@@ -153,7 +153,9 @@ export default function Navbar() {
           </button>
         </div>
 
-<div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+
+        <div className="px-6 py-4 overflow-y-auto h-[calc(100%-4rem)]">
+          <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
   <CTAButton href="/quote" className="w-full sm:w-auto">Request Quote</CTAButton>
 </div>
 
@@ -161,11 +163,10 @@ export default function Navbar() {
   <CTAButton href="tel:+64220352725" className="w-full sm:w-auto bg-duke-dark hover:bg-duke-blue">
     022 035 2725
   </CTAButton>
-  <CTAButton href="mailto:hello@dukeservices.co.nz" className="w-full sm:w-auto bg-duke-dark hover:bg-duke-blue">
+  <CTAButton href="mailto:hello@dukeservices.co.nz" className="w-full sm:w-auto font-body bg-duke-dark hover:bg-duke-blue">
     hello@dukeservices.co.nz
   </CTAButton>
 </div>
-        <div className="px-6 py-4 overflow-y-auto h-[calc(100%-4rem)]">
           <p className="uppercase text-sm font-bold text-gray-500 mb-2">Residential</p>
           <DropdownLinks
             hoverColor="duke-blue"
