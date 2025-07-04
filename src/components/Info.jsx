@@ -28,6 +28,9 @@ export default function ResidentialInfo({
           />
         </motion.div>
 
+<h2 className="text-3xl md:text-4xl font-cursive font-bold text-duke-dark mb-8 inline-block relative after:content-[''] after:block after:w-full after:h-[3px] after:bg-duke-brown after:rounded-full after:mt-2">
+  {heading}
+</h2>
         {/* Text Side */}
         <motion.div
           className="w-full md:w-1/2"
@@ -36,10 +39,6 @@ export default function ResidentialInfo({
           transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
           viewport={{ once: true, amount: 0.5 }}
         >
-<h2 className="text-3xl md:text-4xl font-cursive font-bold text-duke-dark mb-8 inline-block relative after:content-[''] after:block after:w-full after:h-[3px] after:bg-duke-brown after:rounded-full after:mt-2">
-  {heading}
-</h2>
-
           {paragraphs.map((text, i) => (
             <p key={i} className="font-body text-gray-700 mb-4">{text}</p>
           ))}
