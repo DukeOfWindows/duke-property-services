@@ -95,7 +95,16 @@ export default function ContactForm() {
       {/* Hidden Fields */}
       <input type="text" name="_gotcha" style={{ display: 'none' }} />
       <input type="hidden" name="_redirect" value="https://dukepropertyservices.co.nz/thanks" />
-
+{/* Promotional Opt-In */}
+<label className="flex items-start text-sm text-gray-700">
+  <input
+    type="checkbox"
+    name="promoOptIn"
+    defaultChecked
+    className="mt-1 mr-2 border-gray-300 rounded text-duke focus:ring-duke"
+  />
+  <span>Would you like to receive promotional material from the Duke?</span>
+</label>
       {/* Submit */}
       <button
         type="submit"
