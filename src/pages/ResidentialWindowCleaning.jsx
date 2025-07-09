@@ -12,6 +12,49 @@ import sunIcon from '../images/icons/sun.png';
 import houseIcon from '../images/icons/house.png';
 
 export default function ResidentialWindowCleaning() {
+ const faqItems = [
+  {
+    question: "How often should I clean my windows?",
+    answer: (
+      <>
+        We recommend <strong>an exterior clean every 6–8 weeks</strong> to keep things looking sharp year-round. Inside windows can usually go longer between cleans — every 3–6 months depending on pets, kids, and cooking habits!
+      </>
+    ),
+  },
+  {
+    question: "Do you clean interior windows too?",
+    answer: (
+      <>
+        <strong>Absolutely!</strong> We're careful around furniture, curtains, and delicate surfaces. Just let us know if you'd like the inside done as well, and we’ll come prepared.
+      </>
+    ),
+  },
+  {
+    question: "Do I need to be home for the clean?",
+    answer: (
+      <>
+        <strong>Only if we're doing the inside.</strong> For exterior cleans, as long as we have access, you can carry on with your day. We’ll send a quick message when we’re finished.
+      </>
+    ),
+  },
+  {
+    question: "Will you remove paint, stickers, or hard water stains?",
+    answer: (
+      <>
+        Standard window cleans don’t include stubborn residue removal — but <strong>we can absolutely quote for extra work</strong> like paint overspray, mineral deposits, or decal removal.
+      </>
+    ),
+  },
+  {
+    question: "What happens if it rains on the day of my booking?",
+    answer: (
+      <>
+        Light rain isn’t a problem, but <strong>we’ll reschedule if the weather’s really rough</strong>. Clean water + rain won’t leave spots — dirty windows + rain will!
+      </>
+    ),
+  },
+];
+
   return (
     <>
       <HelmetSEO
@@ -85,7 +128,7 @@ export default function ResidentialWindowCleaning() {
         }}
 
         testimonialTag={['window']}
-      />
+     />
     </>
   );
 }

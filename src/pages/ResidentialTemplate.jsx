@@ -8,6 +8,7 @@ import ToolboxSection from '../components/ToolboxSection';
 import WhyUs from '../components/WhyUs';
 import TestimonialSlider from '../components/TestimonialSlider';
 import HowItWorks from '../components/HowItWorks';
+import FAQSection from '../components/FAQSection';
 import Footer from '../components/Footer';
 import allTestimonials from '../data/testimonialsData';
 import getTestimonialsByService from '../utils/getTestimonialsByService';
@@ -23,7 +24,8 @@ export default function ResidentialTemplate({
   info,
   benefits,
   tools,
-  testimonialTag
+  testimonialTag,
+  faqItems = []
 }) {
   const testimonials = shuffleArray(
     getTestimonialsByService(testimonialTag, allTestimonials)
@@ -67,9 +69,10 @@ export default function ResidentialTemplate({
           items={tools.items}
         />
 
-        <WhyUs />
+      <WhyUs />
         <TestimonialSlider testimonials={testimonials} />
         <HowItWorks />
+        {faqItems.length > 0 && <FAQSection faqItems={faqItems} />}
       </main>
       <Footer />
     </>
