@@ -18,7 +18,7 @@ export default function ResidentialGutterCleaning() {
     question: "How often should I get my gutters cleaned?",
     answer: (
       <>
-        We recommend <strong>cleaning your gutters at least once a year</strong> — sometimes every two years will do if you're in the suburbs without a lot of tall trees. This helps prevent blockages, water damage, and unwanted nesting from birds or pests.
+        We recommend <strong>cleaning your gutters at least once a year</strong>.  If you live in a suburban area without overhanging trees, every two years may be enough — but regular maintenance is key. This helps prevent blockages, water damage, and unwanted nesting from birds or pests.
       </>
     ),
   },
@@ -46,6 +46,14 @@ export default function ResidentialGutterCleaning() {
       </>
     ),
   },
+  {
+  question: "What are your payment terms?",
+  answer: (
+    <>
+      The job is <strong>invoiced and payment is due upon completion</strong>. You can pay by <strong>bank transfer, EFTPOS, or cash</strong> — whichever works best for you.
+    </>
+  ),
+}
 ];
 
   return (
@@ -70,14 +78,16 @@ export default function ResidentialGutterCleaning() {
           "Clogged gutters can cause leaks, mold, and serious water damage to your home.",
           "Our expert team clears out leaves, moss, and debris by hand — then flushes the system to ensure water flows freely.",
           "With regular maintenance, you protect your roofline, prevent overflow, and avoid expensive repairs.",
-          "We service homes throughout Kapiti — including Paraparaumu, Waikanae, Raumati, and Otaki.",
-          "Let Duke take care of the dirty work so you don't have to climb a ladder again.",
+          "We service homes throughout Kapiti and beyond — including Whitby, Paraparaumu, Waikanae, Levin, and everywhere in between.",
+          "Let Duke take care of the dirty work so you don't have to risk falling off a ladder!",
         ],
         listItems: [
           "Hand-removal of debris and moss",
+          "Thorough flush-out of all guttering systems",
           "Downpipe inspection and flush",
-          "Minor blockage removal",
-          "Before & after photo reporting",
+          "Minor down-pipe blockage removal",
+          "Minor gutter repairs",
+          "Before & after photos (upon request)",
         ],
       }}
       benefits={{

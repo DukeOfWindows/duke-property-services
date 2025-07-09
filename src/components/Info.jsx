@@ -7,7 +7,7 @@ export default function ResidentialInfo({
   heading,
   paragraphs = [],
   listItems = [],
-  listIntro = "This service includes:"
+  listIntro = "Our available services include:"
 }) {
   return (
     <section className="bg-white text-duke-dark py-16">

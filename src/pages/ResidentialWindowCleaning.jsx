@@ -41,7 +41,7 @@ export default function ResidentialWindowCleaning() {
     question: "Will you remove paint, stickers, or hard water stains?",
     answer: (
       <>
-        Standard window cleans don’t include stubborn residue removal — but <strong>we can absolutely quote for extra work</strong> like paint overspray, mineral deposits, or decal removal.
+        Standard window cleans don’t include stubborn residue removal — but <strong>we can absolutely quote for extra work</strong> like paint overspray, hard-water stains, or decal removal.
       </>
     ),
   },
@@ -49,10 +49,18 @@ export default function ResidentialWindowCleaning() {
     question: "What happens if it rains on the day of my booking?",
     answer: (
       <>
-        Light rain isn’t a problem, but <strong>we’ll reschedule if the weather’s really rough</strong>. Clean water + rain won’t leave spots — dirty windows + rain will!
+        Light rain isn’t a problem, but <strong>we’ll reschedule if the weather’s really rough</strong>. Clean windows + rain won’t leave spots — dirty windows + rain will!
       </>
     ),
   },
+  {
+  question: "What are your payment terms?",
+  answer: (
+    <>
+      The job is <strong>invoiced and payment is due upon completion</strong>. You can pay by <strong>bank transfer, EFTPOS, or cash</strong> — whichever works best for you.
+    </>
+  ),
+}
 ];
 
   return (
@@ -76,7 +84,7 @@ export default function ResidentialWindowCleaning() {
           heading: "Residential Window Cleaning",
           paragraphs: [
             "Part art, part science – getting a streak-free shine on your home's windows takes know-how, the right tools, and maybe even a ladder.",
-            "The difference between amazing results and unmitigated disasters comes down to a lot of know-how and a little elbow grease. The team at Duke Property Services are armed with both.",
+            "The difference between amazing results and unmitigated disasters comes down to a lot of experience and a little elbow grease. The team at Duke Property Services are armed with both.",
             "Their top-of-the-line tools and proprietary cleaning products, coupled with their knowledge in how to use them, help deliver spotless, streak-free results.",
             "Choosing a Duke clean from our Kapiti-based window cleaning team means opting for high-quality, long-lasting results.",
           ],
@@ -110,7 +118,7 @@ export default function ResidentialWindowCleaning() {
               image: poleImg,
               alt: "Carbon fibre water-fed pole for exterior window washing",
               title: 'High-end Water Fed Poles',
-              description: 'From tight garden accessways to three-storey homes, we’ve got a pole for every job. Our tallest carbon-fibre pole extends over 10 metres, letting us clean third-storey windows safely from the ground — no ladders or scaffolding needed.',
+              description: 'From tight garden accessways to three-storey homes, we’ve got a pole for every job. Our tallest carbon-fibre pole extends over 7 metres, letting us clean third-storey windows safely from the ground — no ladders or scaffolding needed.',
             },
             {
               image: squeegeeImg,

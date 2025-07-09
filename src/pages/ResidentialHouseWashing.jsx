@@ -55,6 +55,14 @@ const faqItems = [
       </>
     ),
   },
+  {
+  question: "What are your payment terms?",
+  answer: (
+    <>
+      The job is <strong>invoiced and payment is due upon completion</strong>. You can pay by <strong>bank transfer, EFTPOS, or cash</strong> — whichever works best for you.
+    </>
+  ),
+}
 ];
 
   return (

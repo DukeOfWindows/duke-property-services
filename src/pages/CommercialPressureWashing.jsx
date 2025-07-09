@@ -54,6 +54,14 @@ export default function CommercialPressureWashing() {
       </>
     ),
   },
+  {
+  question: "What are your payment terms?",
+  answer: (
+    <>
+      <strong>Payment is due upon completion</strong> unless other arrangements have been made in advance. We offer flexible payment options for commercial clients where needed.
+    </>
+  ),
+}
 ];
 
   return (
