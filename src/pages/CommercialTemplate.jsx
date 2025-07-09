@@ -7,6 +7,7 @@ import BenefitCards from '../components/BenefitCards';
 import ToolboxSection from '../components/ToolboxSection';
 import WhyUs from '../components/WhyUs';
 import TestimonialSlider from '../components/TestimonialSlider';
+import FAQSection from '../components/FAQSection';
 import HowItWorks from '../components/HowItWorks';
 import Footer from '../components/Footer';
 import allTestimonials from '../data/testimonialsData';
@@ -24,6 +25,7 @@ export default function CommercialTemplate({
   benefits,
   tools,
   testimonialTag,
+    faqItems = [],
   highlight = null,
 }) {
   const testimonials = shuffleArray(
@@ -78,6 +80,7 @@ export default function CommercialTemplate({
         <WhyUs />
         <TestimonialSlider testimonials={testimonials} />
         <HowItWorks />
+        {faqItems.length > 0 && <FAQSection faqItems={faqItems} />}
       </main>
 
       <Footer />

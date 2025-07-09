@@ -12,7 +12,51 @@ import buildingIcon from '../images/icons/building-dark.png';
 import airIcon from '../images/icons/cleanAir.png';
 
 export default function CommercialBuildingWashing() {
-  return (
+ const faqItems = [
+  {
+    question: "What types of buildings do you wash?",
+    answer: (
+      <>
+        We wash <strong>offices, retail storefronts, apartment buildings, warehouses, schools, churches, and more</strong>. From tilt-slab to weatherboard, we’ve got you covered.
+      </>
+    ),
+  },
+  {
+    question: "Do you use soft wash or water blasting?",
+    answer: (
+      <>
+        Both — depending on the surface. <strong>Most building exteriors are cleaned with a soft wash method</strong> using low pressure and a biodegradable detergent. For harder surfaces like concrete, we’ll crank up the pressure where needed.
+      </>
+    ),
+  },
+  {
+    question: "Can you wash multi-storey buildings?",
+    answer: (
+      <>
+        Absolutely. We use <strong>water-fed poles, scaffold towers, boom lifts, or abseil gear</strong> — whatever the building requires. All operators are trained and certified.
+      </>
+    ),
+  },
+  {
+    question: "How often should a commercial building be washed?",
+    answer: (
+      <>
+        That depends on your location and building type — but generally, we recommend <strong>an annual or 6-monthly clean</strong> to prevent build-up and keep things looking sharp.
+      </>
+    ),
+  },
+  {
+    question: "Do you provide quotes and site assessments?",
+    answer: (
+      <>
+        <strong>Always.</strong> We’re happy to assess the building, talk through your needs, and provide a no-obligation quote with timing, safety plans, and optional add-ons.
+      </>
+    ),
+  },
+];
+
+ 
+ return (
 <>
   <HelmetSEO
     pageTitle="Commercial Building Washing Kapiti Coast | Duke Property Services"
@@ -81,6 +125,7 @@ export default function CommercialBuildingWashing() {
           ],
         }}
       testimonialTag={['pressure', 'general']}
+      faqItems={faqItems}
       />
     </>
   );

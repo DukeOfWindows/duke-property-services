@@ -12,6 +12,50 @@ import floodIcon from '../images/icons/gutter-dark.png';
 import buildingIcon from '../images/icons/building-dark.png';
 
 export default function CommercialGutterCleaning() {
+  const faqItems = [
+  {
+    question: "What types of commercial properties do you service?",
+    answer: (
+      <>
+        We handle gutter cleaning for <strong>retail buildings, offices, warehouses, apartment blocks, schools, and more</strong>. Multi-unit? No problem — we’re set up for it.
+      </>
+    ),
+  },
+  {
+    question: "Can you clean multi-storey buildings?",
+    answer: (
+      <>
+        Absolutely. We use <strong>ladder systems, roof anchors, and elevated work platforms</strong> where needed — all with proper safety gear and certifications.
+      </>
+    ),
+  },
+  {
+    question: "Do you offer roof and gutter reports?",
+    answer: (
+      <>
+        Yes. On request, we can provide <strong>before/after photos and a basic condition report</strong> for your records — handy for insurance, tenants, or maintenance plans.
+      </>
+    ),
+  },
+  {
+    question: "Will you dispose of the gutter waste?",
+    answer: (
+      <>
+        <strong>Always.</strong> We bag and remove debris from site unless you have compost or green waste bins you’d prefer us to use.
+      </>
+    ),
+  },
+  {
+    question: "Do you offer scheduled maintenance plans?",
+    answer: (
+      <>
+        Yep — we can <strong>set you up with 6-monthly or annual gutter cleans</strong> so your buildings stay protected year-round. We’ll even send reminders.
+      </>
+    ),
+  },
+];
+
+  
   return (
     <>
 <HelmetSEO
@@ -83,6 +127,7 @@ export default function CommercialGutterCleaning() {
         }}
 
         testimonialTag={['pressure', 'general']}
+        faqItems={faqItems}
       />
     </>
   );

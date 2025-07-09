@@ -12,6 +12,50 @@ import slipIcon from '../images/icons/slip.png';
 import buildingIcon from '../images/icons/building-dark.png';
 
 export default function CommercialPressureWashing() {
+  
+  const faqItems = [
+  {
+    question: "What commercial surfaces can you pressure wash?",
+    answer: (
+      <>
+        We clean <strong>concrete carparks, loading bays, signage, walls, fences, bin areas, paving, and more</strong>. If it’s exterior and grimy, we can bring it back to life.
+      </>
+    ),
+  },
+  {
+    question: "Can you clean outside business hours?",
+    answer: (
+      <>
+        Absolutely. We can <strong>clean after hours, on weekends, or during public holidays</strong> to avoid disrupting your staff or customers. Let us know what suits.
+      </>
+    ),
+  },
+  {
+    question: "Do you offer one-off cleans or ongoing maintenance?",
+    answer: (
+      <>
+        Both. We can do a one-off clean before inspections, events, or rebranding — or <strong>set you up with a recurring schedule</strong> to keep things tidy long term.
+      </>
+    ),
+  },
+  {
+    question: "Are your methods safe for painted or delicate surfaces?",
+    answer: (
+      <>
+        <strong>Yes — we use adjustable pressure and surface-specific nozzles</strong>. For painted render, signage, or older surfaces, we dial it back and use a soft wash method if needed.
+      </>
+    ),
+  },
+  {
+    question: "Are your team trained and insured?",
+    answer: (
+      <>
+        <strong>100%</strong>. Our crew is trained in commercial site safety, insured for peace of mind, and familiar with working in high-traffic or shared spaces.
+      </>
+    ),
+  },
+];
+
   return (
     <>
     <HelmetSEO
@@ -78,6 +122,7 @@ export default function CommercialPressureWashing() {
       }}
 
       testimonialTag={['pressure', 'general']}
+      faqItems={faqItems}
     />
     </>
   );
