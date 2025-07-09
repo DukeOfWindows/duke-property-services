@@ -128,6 +128,7 @@ export default function ResidentialWindowCleaning() {
         }}
 
         testimonialTag={['window']}
+        faqItems={faqItems} 
      />
     </>
   );
