@@ -17,7 +17,7 @@ export default function ResidentialWindowCleaning() {
     question: "How often should I clean my windows?",
     answer: (
       <>
-        We recommend <strong>an exterior clean every 6–8 weeks</strong> to keep things looking sharp year-round. Inside windows can usually go longer between cleans — every 3–6 months depending on pets, kids, and cooking habits!
+        We recommend <strong>an exterior clean every 3 months</strong> to keep things looking sharp year-round. Inside windows can usually go longer between cleans — <strong>every 3–6 months</strong> depending on pets, kids, and cooking habits!
       </>
     ),
   },

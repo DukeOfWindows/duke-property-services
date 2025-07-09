@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-200 pt-10">
+    <footer className="bg-off-white border-t border-gray-200 pt-10">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10 text-sm space-y-10 md:space-y-0">
         
         {/* Logo + CTA */}
