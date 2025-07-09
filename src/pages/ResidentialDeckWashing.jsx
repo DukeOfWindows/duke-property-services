@@ -12,6 +12,50 @@ import lichenIcon from '../images/icons/lichen.png';
 import sunIcon from '../images/icons/sun.png';
 
 export default function ResidentialDeckWashing() {
+ 
+  const faqItems = [
+  {
+    question: "What kind of decks can you clean?",
+    answer: (
+      <>
+        We clean all sorts — <strong>pine, kwila, composite, hardwoods, and even painted or stained decks</strong>. We adjust our pressure and method depending on the surface.
+      </>
+    ),
+  },
+  {
+    question: "Will it strip my stain or paint?",
+    answer: (
+      <>
+        Not if we can help it. We use a <strong>low-to-medium pressure setting</strong> and work with the grain to avoid damage. If the stain is already flaking, it may come up — we’ll let you know before we start.
+      </>
+    ),
+  },
+  {
+    question: "Is it slippery afterward?",
+    answer: (
+      <>
+        Nope — it’s the opposite! <strong>We remove slippery mould, grime, and algae</strong> that can make decks hazardous in winter. You’ll get better grip and a safer outdoor space.
+      </>
+    ),
+  },
+  {
+    question: "Do you treat mould or just wash it off?",
+    answer: (
+      <>
+        Both. We apply a <strong>deck-safe mould treatment first</strong>, then rinse it clean. This helps keep your deck looking good for longer and slows regrowth.
+      </>
+    ),
+  },
+  {
+    question: "How long before I can use the deck again?",
+    answer: (
+      <>
+        It’ll be dry in a few hours, depending on the weather — but <strong>you can walk on it as soon as we’re done</strong>. Just watch your step if it’s still damp.
+      </>
+    ),
+  },
+];
+
   return (
     <>
     <HelmetSEO
@@ -87,6 +131,7 @@ export default function ResidentialDeckWashing() {
       }}
 
       testimonialTag={['pressure', 'general']}
+        faqItems={faqItems}
     />
     </>
   );

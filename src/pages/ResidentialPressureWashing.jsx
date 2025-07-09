@@ -13,6 +13,49 @@ import slipIcon from '../images/icons/slip.png';
 import patioIcon from '../images/icons/house.png';
 
 export default function ResidentialPressureWashing() {
+  const faqItems = [
+  {
+    question: "What surfaces can you pressure wash?",
+    answer: (
+      <>
+        We commonly pressure wash <strong>driveways, concrete paths, patios, fences, and retaining walls</strong>. If it’s grubby and hard, we can probably blast it clean!
+      </>
+    ),
+  },
+  {
+    question: "Will it damage my concrete or pavers?",
+    answer: (
+      <>
+        Not with us. We use the right PSI and <strong>surface-specific nozzles</strong> to avoid etching or scarring. Old or soft concrete? We'll assess first and adjust our method if needed.
+      </>
+    ),
+  },
+  {
+    question: "What about oil stains or rust marks?",
+    answer: (
+      <>
+        Pressure washing helps, but for heavy stains we often <strong>pre-treat with specialised products</strong>. We’ll let you know what to expect after a quick look.
+      </>
+    ),
+  },
+  {
+    question: "Do you bring your own water?",
+    answer: (
+      <>
+        We usually <strong>hook up to your outdoor tap</strong> — but we can discuss water cartage if needed. Our equipment is high-efficiency so we don’t use more than necessary.
+      </>
+    ),
+  },
+  {
+    question: "Will it make a mess?",
+    answer: (
+      <>
+        Some splashback is normal, but we always do a tidy-up after. We’ll <strong>rinse surrounding areas and paths</strong> so it looks better than when we arrived.
+      </>
+    ),
+  },
+];
+
   return (
     <>
     <HelmetSEO
@@ -92,6 +135,7 @@ export default function ResidentialPressureWashing() {
         ],
       }}
       testimonialTag={['pressure', 'general']}
+        faqItems={faqItems}
     />
     </>
   );

@@ -13,6 +13,50 @@ import houseIcon from '../images/icons/house.png';
 import airIcon from '../images/icons/cleanAir.png';
 
 export default function ResidentialHouseWashing() {
+
+const faqItems = [
+  {
+    question: "How often should I get my house washed?",
+    answer: (
+      <>
+        We recommend <strong>washing your house once a year</strong> to prevent grime, mould, and lichen from building up — especially on the shaded or south-facing sides.
+      </>
+    ),
+  },
+  {
+    question: "Will house washing damage my paint or cladding?",
+    answer: (
+      <>
+        Not with us. We use a <strong>low-pressure soft wash system</strong> that's safe on all exterior surfaces — including weatherboard, stucco, brick, and painted finishes.
+      </>
+    ),
+  },
+  {
+    question: "Do I need to do anything to prepare?",
+    answer: (
+      <>
+        Just <strong>close your windows, keep pets inside, and move any fragile outdoor items</strong>. We’ll take care of the rest — including taping vents and protecting outdoor lights.
+      </>
+    ),
+  },
+  {
+    question: "What’s the difference between soft washing and water blasting?",
+    answer: (
+      <>
+        Great question. <strong>Soft washing uses gentle pressure and biodegradable detergents</strong> to clean surfaces without stripping paint or damaging cladding. Water blasting is harsher — better suited for concrete and driveways.
+      </>
+    ),
+  },
+  {
+    question: "Does house washing remove spider webs and mould?",
+    answer: (
+      <>
+        <strong>Yes — that’s the point!</strong> Our wash lifts off dirt, green algae, black mould, and cobwebs to leave your home looking fresh and well-maintained.
+      </>
+    ),
+  },
+];
+
   return (
     <>
     <HelmetSEO
@@ -91,6 +135,7 @@ export default function ResidentialHouseWashing() {
         ],
       }}
       testimonialTag={['house', 'general']}
+        faqItems={faqItems}
     />
     </>
   );

@@ -12,6 +12,49 @@ import roofIcon from '../images/icons/roof.png';
 import roofshieldIcon from '../images/icons/roof-shield.png';
 
 export default function ResidentialRoofTreatment() {
+  const faqItems = [
+  {
+    question: "What does a roof treatment actually do?",
+    answer: (
+      <>
+        It kills off <strong>moss, mould, lichen, and algae</strong> using a biodegradable product. Over time, the growth breaks down and is washed away by the rain — leaving your roof cleaner and safer.
+      </>
+    ),
+  },
+  {
+    question: "How long does it take to work?",
+    answer: (
+      <>
+        Roof treatments aren’t instant — it usually takes <strong>3 to 6 months</strong> for the growth to fully break down. But the results are long-lasting and much gentler on your roof than water blasting.
+      </>
+    ),
+  },
+  {
+    question: "Do you use BioShield or something else?",
+    answer: (
+      <>
+        Yep — we use <strong>BioShield, a proven NZ-made treatment</strong> that’s safe for most roofing materials and won’t harm your garden when applied properly.
+      </>
+    ),
+  },
+  {
+    question: "Will it damage my plants or garden?",
+    answer: (
+      <>
+        We <strong>pre-soak surrounding plants and rinse them again afterward</strong>. We’re careful and experienced — your hedges won’t suffer.
+      </>
+    ),
+  },
+  {
+    question: "Do I need to be home for the treatment?",
+    answer: (
+      <>
+        <strong>Nope!</strong> As long as we’ve got access and a working hose tap, we’re good to go. We’ll send you a message when it’s done.
+      </>
+    ),
+  },
+];
+
   return (
     <>
     <HelmetSEO
@@ -89,6 +132,7 @@ export default function ResidentialRoofTreatment() {
         ],
       }}
       testimonialTag={['roof', 'general']}
+        faqItems={faqItems}
     />
     </>
   );

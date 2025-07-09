@@ -12,6 +12,50 @@ import slipIcon from '../images/icons/slip.png';
 import houseIcon from '../images/icons/house.png';
 
 export default function ResidentialDrivewayCleaning() {
+ 
+ const faqItems = [
+  {
+    question: "What types of driveways do you clean?",
+    answer: (
+      <>
+        We clean <strong>concrete, asphalt, exposed aggregate, cobblestone, and paved driveways</strong>. Each one gets a surface-appropriate clean — no one-size-fits-all pressure blasting here.
+      </>
+    ),
+  },
+  {
+    question: "Can you remove oil stains or tyre marks?",
+    answer: (
+      <>
+        <strong>Mostly, yes!</strong> We pre-treat tough spots like oil, rust, or tyre scuffs with specialty products. Some deep-set stains may not disappear completely, but we’ll get it looking 100× better.
+      </>
+    ),
+  },
+  {
+    question: "Will the water affect my lawn or garden?",
+    answer: (
+      <>
+        We direct runoff away from your plants whenever possible. Our detergents are <strong>biodegradable and used sparingly</strong> — and we’ll do a post-wash rinse if needed.
+      </>
+    ),
+  },
+  {
+    question: "Do I need to be home for the job?",
+    answer: (
+      <>
+        <strong>Nope — as long as the driveway is clear of cars</strong> and we’ve got hose access, you can carry on with your day. We’ll let you know when it’s done!
+      </>
+    ),
+  },
+  {
+    question: "Will it stay clean, or do I need to do this often?",
+    answer: (
+      <>
+        That depends on traffic and weather, but <strong>most homes only need it once a year</strong>. If you’re under trees or have frequent oil leaks, more often may be worthwhile.
+      </>
+    ),
+  },
+];
+
   return (
     <>
     <HelmetSEO
@@ -88,6 +132,7 @@ export default function ResidentialDrivewayCleaning() {
         ],
       }}
       testimonialTag={['pressure', 'general']}
+        faqItems={faqItems}
     />
     </>
   );

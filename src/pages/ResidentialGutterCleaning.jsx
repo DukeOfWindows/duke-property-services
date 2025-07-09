@@ -13,6 +13,41 @@ import shieldIcon from '../images/icons/shield.png';
 import gutterpest from '../images/icons/gutter-pest.png';
 
 export default function ResidentialGutterCleaning() {
+ const faqItems = [
+  {
+    question: "How often should I get my gutters cleaned?",
+    answer: (
+      <>
+        We recommend <strong>cleaning your gutters at least once a year</strong> — sometimes every two years will do if you're in the suburbs without a lot of tall trees. This helps prevent blockages, water damage, and unwanted nesting from birds or pests.
+      </>
+    ),
+  },
+  {
+    question: "Do I need to be home for the gutter clean?",
+    answer: (
+      <>
+        <strong>Nope!</strong> As long as we have access, we’ll get it done while you carry on with your day. We'll let you know when we're done — and send you photos so you can see the results.
+      </>
+    ),
+  },
+  {
+    question: "How do I know if my gutters need cleaning?",
+    answer: (
+      <>
+        If you're seeing <strong>overflowing water, sagging gutters, or plants growing</strong> where they shouldn’t be — it's time to call us. We’re happy to take a look and let you know what’s needed.
+      </>
+    ),
+  },
+  {
+    question: "Do you use ladders or do it from the ground?",
+    answer: (
+      <>
+        Depends on the job! We’re fully equipped with <strong>ladder systems and safety harnesses</strong> for multi-level homes, but often we can clean from the ground using extendable tools.
+      </>
+    ),
+  },
+];
+
   return (
     <>
     <HelmetSEO
@@ -88,6 +123,7 @@ export default function ResidentialGutterCleaning() {
         ],
       }}
       testimonialTag={['gutter', 'general']}
+        faqItems={faqItems}
     />
     </>
   );
