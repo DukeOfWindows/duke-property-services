@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
 
 export default function FAQSection({ faqItems }) {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -26,11 +25,13 @@ export default function FAQSection({ faqItems }) {
                 className="w-full flex items-center justify-between text-left px-6 py-4 text-lg font-semibold text-duke focus:outline-none focus:ring-2 focus:ring-duke"
               >
                 <span>{item.question}</span>
-                <ChevronDown
-                  className={`transform transition-transform duration-300 ${
+                <span
+                  className={`transform transition-transform duration-300 text-xl font-bold ${
                     activeIndex === index ? 'rotate-180' : ''
                   }`}
-                />
+                >
+                  {activeIndex === index ? '−' : '+'}
+                </span>
               </button>
               {activeIndex === index && (
                 <div className="px-6 pb-4 text-gray-700 text-base">
