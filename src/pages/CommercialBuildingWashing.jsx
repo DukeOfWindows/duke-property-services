@@ -7,9 +7,9 @@ import washBuilding from '../images/tools/combuilding-softwash.jpg';
 import softwashImg from '../images/combuilding-square.jpg';
 import brushImg from '../images/tools/comwindow-pole.jpg';
 import tankImg from '../images/tools/tankRH.jpg';
-import grimeIcon from '../images/icons/building-dark.png';
+import grimeIcon from '../images/icons/shield-dark.png';
 import buildingIcon from '../images/icons/building-dark.png';
-import airIcon from '../images/icons/cleanAir.png';
+import airIcon from '../images/icons/cleanAir-dark.png';
 
 export default function CommercialBuildingWashing() {
  const faqItems = [

@@ -7,9 +7,9 @@ import pressuresquareImg from '../images/pressure-square.jpg';
 import surfaceImg from '../images/tools/surfaceRP.jpg';
 import lanceImg from '../images/tools/compressure-lance.jpg';
 import tankImg from '../images/tools/tankRH.jpg';
-import grimeIcon from '../images/icons/building-dark.png';
-import slipIcon from '../images/icons/slip.png';
-import buildingIcon from '../images/icons/building-dark.png';
+import grimeIcon from '../images/icons/pressure-dark.png';
+import slipIcon from '../images/icons/slip-dark.png';
+import buildingIcon from '../images/icons/shield-dark.png';
 
 export default function CommercialPressureWashing() {
   

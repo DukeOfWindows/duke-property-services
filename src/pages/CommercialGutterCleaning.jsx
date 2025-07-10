@@ -7,8 +7,8 @@ import gutterImg from '../images/comgutter-square1.jpg';
 import softwashImg from '../images/tools/comgutter-softwash.jpg';
 import ladderImg from '../images/tools/comgutter-ladder.jpg';
 import harnessImg from '../images/tools/harness.jpg';
-import leafIcon from '../images/icons/gutter-dark.png';
-import floodIcon from '../images/icons/gutter-dark.png';
+import leafIcon from '../images/icons/gutter-pest-dark.png';
+import floodIcon from '../images/icons/foundation-dark.png';
 import buildingIcon from '../images/icons/building-dark.png';
 
 export default function CommercialGutterCleaning() {
