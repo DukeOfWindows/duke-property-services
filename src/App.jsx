@@ -10,6 +10,8 @@ import heroImage from './images/hero.jpg';
 import Footer from './components/Footer';
 import WhatWeClean from './components/WhatWeClean';
 import CTAButton from './components/CTAButton';
+import OurPartners from './components/OurPartners'; // adjust path if needed
+
 
 function shuffleArray(array) {
   return [...array].sort(() => Math.random() - 0.5);
@@ -93,6 +95,8 @@ function App() {
         <WhatWeClean />
         <HowItWorks />
         <TestimonialSlider testimonials={testimonials} />
+<OurPartners />
+
         <Footer />
       </main>
     </>
