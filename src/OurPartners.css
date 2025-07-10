@@ -72,6 +72,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
 }
 
 .logo-image {
@@ -80,6 +81,12 @@
   object-fit: contain;
   filter: grayscale(100%); /* makes image appear grayscale */
   transition: filter 0.3s ease;
+}
+
+.logo-container:hover .image-wrapper {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .logo-container:hover .logo-image {

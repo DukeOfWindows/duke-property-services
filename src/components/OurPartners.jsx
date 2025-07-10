@@ -6,22 +6,13 @@ import happyAnchorLogo from '../images/logos/Happy Anchor Logo.png';
 import sfLogo from '../images/logos/SF Logo.png';
 import GTlogo from '../images/logos/GT Logo.png';
 import TKlogo from '../images/logos/Toatakai.png';
+import JEMlogo from '../images/logos/JEMlogo.png';
 
 const partnerLogos = [
   {
     src: daffadudeLogo,
     alt: 'The Daffadude Logo',
-     link: 'https://dukeservices.co.nz',
-  },
-  {
-    src: dowLogo,
-    alt: 'Duke of Windows Hamilton Logo',
-    link: 'https://dukeservices.co.nz',
-  },
-  {
-    src: happyAnchorLogo,
-    alt: 'Happy Anchor Marriages Logo',
-    link: 'https://happyanchormarriages.co.nz/',
+     link: 'https://www.facebook.com/TheDaffadude',
   },
   {
     src: sfLogo,
@@ -29,9 +20,24 @@ const partnerLogos = [
     link: 'https://www.sfagency.nz/',
   },
     {
+    src: JEMlogo,
+    alt: 'JEM Gas & Plumbing Logo',
+    link: 'https://www.nocowboys.co.nz/businesses/jem-gas-an-plumbing',
+  },
+    {
+    src: happyAnchorLogo,
+    alt: 'Happy Anchor Marriages Logo',
+    link: 'https://happyanchormarriages.co.nz/',
+  },
+    {
     src: GTlogo,
     alt: 'Gleam Team Wanaka Logo',
     link: 'https://gleamteam.co.nz/home',
+  },
+    {
+    src: dowLogo,
+    alt: 'Duke of Windows Hamilton Logo',
+    link: 'https://dukeservices.co.nz',
   },
     {
     src: TKlogo,

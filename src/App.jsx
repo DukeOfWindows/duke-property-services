@@ -90,11 +90,12 @@ function App() {
             <CTAButton />
           </div>
         </section>
-
+       <WhatWeClean />
         <WhyUs />
-        <WhatWeClean />
         <HowItWorks />
+        <section id="testimonials" className="scroll-mt-24 ...">
         <TestimonialSlider testimonials={testimonials} />
+        </section>
 <OurPartners />
 
         <Footer />
