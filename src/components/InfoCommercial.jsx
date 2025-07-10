@@ -7,7 +7,7 @@ export default function InfoCommercial({
   heading,
   paragraphs = [],
   listItems = [],
-  listIntro = "This service includes:"
+  listIntro = "Our available services are:"
 }) {
   return (
     <section className="bg-white text-duke-dark py-16">

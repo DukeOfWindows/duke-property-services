@@ -84,13 +84,14 @@ export default function ResidentialDeckWashing() {
         heading: "Residential Deck Washing",
         paragraphs: [
           "Decks can become slippery, stained, and unsightly over time — especially in shaded, coastal, or damp areas common on the Kapiti Coast.",
-          "Our soft-wash deck cleaning method gently lifts dirt and organic build-up without damaging timber or composite materials.",
-          "We adjust water pressure, temperature, and eco-friendly detergents to suit your surface — giving you safe, long-lasting results.",
+          "Our soft-wash deck cleaning methods gently lift dirt and organic build-up without damaging timber or composite materials.",
+          "We adjust water pressure, techniques, and chemicals to suit your surface — giving you safe, long-lasting results.",
           "A clean deck not only looks great — it’s safer to walk on, better for entertaining, and protects your investment over time.",
+          "We proudly service the Kapiti Coast and beyond, including Paraparaumu, Raumati, Waikanae, Ōtaki — and everywhere between Newlands and Levin.",
         ],
         listItems: [
           "Soft-wash for timber & composite decking",
-          "Mould, moss, lichen & algae removal",
+          "Mould, moss, lichen & algae treatment",
           "Anti-slip surface treatment options",
           "Balustrade, step and edge detailing",
           "Safe for stained, painted, or sealed wood",

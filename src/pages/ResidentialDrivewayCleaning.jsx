@@ -77,7 +77,7 @@ export default function ResidentialDrivewayCleaning() {
         image: heroDriveway,
         eyebrow: "Residential",
         title: "Driveway Cleaning",
-        description: "Pressure wash years of grime, stains, and moss off your driveway — and boost your home’s curb appeal in the process.",
+        description: "Pressure wash years of grime, stains, and moss off your driveway — and boost your home’s street appeal in the process.",
       }}
 
       info={{
@@ -88,7 +88,7 @@ export default function ResidentialDrivewayCleaning() {
           "We use professional-grade pressure washers and surface cleaners to remove grime safely and evenly.",
           "Whether it’s concrete, asphalt, or paving stones, we tailor the pressure and product to protect the surface.",
           "Your driveway is the first thing visitors see — let’s make it sparkle.",
-          "We service all of Kapiti Coast including Paraparaumu, Waikanae, Raumati, and Otaki."
+          "We proudly service the Kapiti Coast and beyond, including Paraparaumu, Raumati, Waikanae, Ōtaki — and everywhere between Newlands and Levin."
         ],
         listItems: [
           "Concrete, asphalt, and paver-safe cleaning",

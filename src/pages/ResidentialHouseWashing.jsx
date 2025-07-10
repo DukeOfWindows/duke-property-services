@@ -27,7 +27,7 @@ const faqItems = [
     question: "Will house washing damage my paint or cladding?",
     answer: (
       <>
-        Not with us. We use a <strong>low-pressure soft wash system</strong> that's safe on all exterior surfaces — including weatherboard, stucco, brick, and painted finishes.
+        Not with us. We use a <strong>low-pressure soft wash system</strong> that's safe on all exterior surfaces — including weatherboard, cedar, brick, and painted finishes.
       </>
     ),
   },
@@ -35,7 +35,7 @@ const faqItems = [
     question: "Do I need to do anything to prepare?",
     answer: (
       <>
-        Just <strong>close your windows, keep pets inside, and move any fragile outdoor items</strong>. We’ll take care of the rest — including taping vents and protecting outdoor lights.
+        Just <strong>close your windows, keep pets inside, and move any fragile outdoor items</strong>. We’ll take care of the rest.
       </>
     ),
   },
@@ -43,7 +43,7 @@ const faqItems = [
     question: "What’s the difference between soft washing and water blasting?",
     answer: (
       <>
-        Great question. <strong>Soft washing uses gentle pressure and biodegradable detergents</strong> to clean surfaces without stripping paint or damaging cladding. Water blasting is harsher — better suited for concrete and driveways.
+        Great question. <strong>Soft washing uses gentle pressure and solutions</strong> to clean surfaces without stripping paint or damaging cladding. Water blasting is harsher — better suited for concrete and driveways.
       </>
     ),
   },
@@ -86,14 +86,14 @@ const faqItems = [
         image: tallHouse,
         heading: "Residential House Washing",
         paragraphs: [
-          "Over time, dirt, algae, and pollutants cling to your home’s siding, dulling its appearance and shortening its lifespan.",
-          "Our soft washing method lifts grime safely — without harsh pressure that can damage paint or wood.",
-          "We treat every job with care, using eco-friendly detergents and low-pressure rinses to refresh your home’s exterior.",
-          "Perfect for weatherboards, plaster, and brick surfaces. Let your house shine again.",
-          "We service homes throughout Kapiti, including Paraparaumu, Raumati, Waikanae, and Otaki."
+          "Over time, dirt, algae, and pollutants cling to your home’s exterior, dulling its appearance and shortening its lifespan.",
+          "Our gentle soft washing method safely removes grime without the risk of damage from high-pressure systems",
+          "We tailor each wash to your needs, using a range of solutions from natural acetic acid (white vinegar) to sodium hypochlorite (bleach), followed by a low-pressure rinse to refresh your home’s exterior.",
+          "Perfect for weatherboard, plaster, brick, and other exterior surfaces. Let your home shine again.",
+          "We proudly service the Kapiti Coast and beyond, including Paraparaumu, Raumati, Waikanae, Ōtaki — and everywhere between Newlands and Levin."
         ],
         listItems: [
-          "Soft washing for weatherboard, plaster, and painted homes",
+          "Soft washing all exterior walls, soffits, gutters and downpipes",
           "Algae and mold treatment",
           "Cobweb and grime removal",
           "Window and frame rinse-down",

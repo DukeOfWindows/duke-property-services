@@ -20,8 +20,7 @@ export default function Footer() {
 
         {/* Residential */}
         <div>
-          <h4 className="text-duke-dark font-bold mb-2">Residential</h4>
-          <ul className="space-y-1 text-duke-dark">
+<h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Residential</h4>          <ul className="space-y-1 text-duke-dark">
             <li><Link to="/residential-window-cleaning" className="hover:underline">Window Cleaning</Link></li>
             <li><Link to="/residential-gutter-cleaning" className="hover:underline">Gutter Cleaning</Link></li>
             <li><Link to="/residential-house-washing" className="hover:underline">House Washing</Link></li>
@@ -34,7 +33,7 @@ export default function Footer() {
 
         {/* Commercial */}
         <div>
-          <h4 className="text-duke-dark font-bold mb-2">Commercial</h4>
+<h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Commercial</h4>
           <ul className="space-y-1 text-duke-dark">
             <li><Link to="/commercial-window-cleaning" className="hover:underline">Window Cleaning</Link></li>
             <li><Link to="/commercial-building-washing" className="hover:underline">Building Washing</Link></li>
@@ -45,8 +44,7 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h4 className="text-duke-dark font-bold mb-2">Contact Us</h4>
-          <ul className="space-y-1 text-gray-700">
+<h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Contact Us</h4>          <ul className="space-y-1 text-gray-700">
             <li>Phone: <a href="tel:+64220352725" className="text-duke-blue">022 035 2725</a></li>
             <li>Email: <a href="mailto:hello@dukeservices.co.nz" className="text-duke-blue">hello@dukeservices.co.nz</a></li>
             <li className="flex space-x-4 mt-2">

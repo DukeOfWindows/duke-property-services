@@ -89,7 +89,7 @@ export default function ResidentialPressureWashing() {
           "Your hard surfaces take a beating — moss, oil, grime, and age can turn paths and patios into slippery eyesores.",
           "Our pressure washing restores surfaces to their original glory without damage.",
           "We adjust pressure and nozzles depending on the surface — from delicate pavers to stubborn stains.",
-          "Available in Paraparaumu, Waikanae, Raumati, Otaki, and throughout the Kapiti Coast.",
+          "Available from Waikanae to Whitby - we service the Kapiti Coast and beyond.",
           "We clean, you relax — and enjoy a fresh new look outside.",
         ],
         listItems: [

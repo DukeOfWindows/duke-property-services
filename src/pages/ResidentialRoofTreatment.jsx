@@ -25,15 +25,15 @@ export default function ResidentialRoofTreatment() {
     question: "How long does it take to work?",
     answer: (
       <>
-        Roof treatments aren’t instant — it usually takes <strong>3 to 6 months</strong> for the growth to fully break down. But the results are long-lasting and much gentler on your roof than water blasting.
+        Roof treatments aren’t instant — it usually takes <strong>6 to 12 months</strong> for the growth to fully break down. But the results are long-lasting and much gentler on your roof than water blasting.
       </>
     ),
   },
   {
-    question: "Do you use BioShield or something else?",
+    question: "What products do you use?",
     answer: (
       <>
-        Yep — we use <strong>BioShield, a proven NZ-made treatment</strong> that’s safe for most roofing materials and won’t harm your garden when applied properly.
+        We use <strong>BioShield, a proven NZ-made treatment</strong> that’s safe for most roofing materials and won’t harm your garden when applied properly.
       </>
     ),
   },
@@ -85,9 +85,10 @@ export default function ResidentialRoofTreatment() {
         paragraphs: [
           "Roofs are moss magnets. Left untreated, growth can lift tiles, clog gutters, and cause water damage.",
           "Our gentle roof treatment kills moss, lichen, and mould at the root — no water blasting or structural risk.",
-          "Application is safe, effective, and works gradually over weeks as the weather naturally removes debris.",
-          "We work across the Kapiti Coast — including Paraparaumu, Waikanae, Raumati, and Otaki.",
-          "Routine treatments help extend roof life, improve appearance, and avoid costly repairs down the track.",
+          "Application is safe, effective, and works gradually over months as the weather naturally removes debris.",
+                   "Routine treatments help extend roof life, improve appearance, and avoid costly repairs down the track.",
+
+          "We proudly service the Kapiti Coast and beyond, including Paraparaumu, Raumati, Waikanae, Ōtaki — and everywhere between Newlands and Levin.",
         ],
         listItems: [
           "Low-pressure chemical application",

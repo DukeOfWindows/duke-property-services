@@ -76,7 +76,7 @@ export default function CommercialPressureWashing() {
         image: heroPressure,
         eyebrow: "Commercial",
         title: "Pressure Washing",
-        description: "Keep your building, carpark, and public areas safe and sharp with professional-grade commercial pressure washing."
+        description: "Keep your building, carpark, and public areas safe and looking sharp with professional-grade commercial pressure washing."
       }}
 
       info={{
@@ -86,7 +86,7 @@ export default function CommercialPressureWashing() {
           "Grime, algae, oil stains, and gum don’t just look bad — they make your business look neglected and can create slip hazards.",
           "Our high-powered commercial pressure washing service tackles it all: shopfronts, carparks, loading zones, signage, bins, and more.",
           "We clean outside business hours if needed and use surface cleaners to keep mess to a minimum.",
-          "We proudly serve the entire Kapiti Coast region, including Paekakariki, Raumati, Paraparaumu, Waikanae, and Otaki.",
+          "We are based on the Kapiti Coast, but service Newlands, Levin and everywhere in between.",
         ],
         listItems: [
           "Flat surface cleaning with rotary tools",

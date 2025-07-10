@@ -22,19 +22,19 @@ export default function ResidentialInteriorWindowCleaning() {
       </>
     ),
   },
-  {
-    question: "What products do you use inside?",
-    answer: (
-      <>
-        We use a traditional squeegee-and-mop system with a <strong>gentle, non-toxic cleaning solution</strong> — safe for kids, pets, and glass coatings.
-      </>
-    ),
-  },
+{
+  question: "What products do you use inside?",
+  answer: (
+    <>
+      For interior window cleaning, we use a classic <strong>squeegee-and-mop system</strong> with a generous squirt of <strong>Dawn® — a gentle, US-made dish soap</strong> that’s safe for kids, pets, and your glass. It’s super effective, and trusted by window pros worldwide.
+    </>
+  ),
+},
   {
     question: "Will there be drips or mess inside?",
     answer: (
       <>
-        We carry towels and drop cloths, and we’re pretty tidy operators. <strong>Your floors and furnishings are always protected</strong> — no soggy carpet, promise.
+        We carry towels and drop cloths, and we’re pretty tidy operators. <strong>Your floors and furnishings are always protected</strong> — no soggy carpet, pinky promise.
       </>
     ),
   },
@@ -50,7 +50,7 @@ export default function ResidentialInteriorWindowCleaning() {
     question: "Can you remove marks or stickers on interior glass?",
     answer: (
       <>
-        We sure can. <strong>Just let us know ahead of time</strong> so we can bring the right tools for paint spots, decals, or sticky residue.
+        We sure can. <strong>Just let us know ahead of time</strong> so we can bring the right tools for paint spots, decals, or sticky residue. Additional costs may apply. 
       </>
     ),
   },
@@ -86,9 +86,9 @@ export default function ResidentialInteriorWindowCleaning() {
         paragraphs: [
           "Fingerprints, smudges, and dust don’t stand a chance. We clean every inch of your interior glass — carefully and efficiently.",
           "Our interior window cleaning is done with precision tools and lint-free cloths to ensure a crystal-clear, streak-free finish.",
-          "We’re respectful of your space, working cleanly around furniture, drapes, and delicate surfaces.",
+          "We’re respectful of your space, working cleanly around furniture, curtains, and delicate surfaces.",
           "Your view deserves to look good from both sides — not just the outside.",
-          "We service homes in Paraparaumu, Waikanae, Raumati, Otaki, and throughout the Kapiti Coast.",
+          "We proudly service the Kapiti Coast and beyond, including Paraparaumu, Raumati, Waikanae, Ōtaki — and everywhere between Newlands and Levin.",
         ],
         listItems: [
           "Interior window panes cleaned by hand",

@@ -33,7 +33,7 @@ export default function CommercialWindowCleaning() {
     question: "Can you clean multi-storey buildings?",
     answer: (
       <>
-        <strong>Yes — we use water-fed pole systems for up to 3–4 storeys</strong>. For taller buildings, we’ll assess whether elevated work platforms or abseiling is appropriate.
+        <strong>Yes — we use water-fed pole systems for up to 3 storeys</strong>. For taller buildings, we’ll assess whether elevated work platforms or abseiling is appropriate.
       </>
     ),
   },
@@ -85,14 +85,14 @@ export default function CommercialWindowCleaning() {
           "First impressions matter. Clean windows speak volumes about your business — and we’re here to make sure they shine.",
           "From local storefronts to multi-storey office buildings, our commercial window cleaning service uses advanced tools and techniques for sparkling results without the fuss.",
           "Our trained team works efficiently, safely, and discreetly — so you can get on with business while we handle the shine.",
-          "We serve businesses across the Kapiti Coast including Waikanae, Paraparaumu, Otaki, and Pukerua Bay.",
+          "We make regular visits to businesses in Newlands, the Kapiti Coast, Levin, and everywhere in between.",
         ],
         listItems: [
           "Pure water-fed pole system for up to 3 storeys",
           "Spot-free finish using deionised water",
           "Traditional internal window cleaning available",
           "Flexible scheduling to minimise disruption",
-          "Full safety compliance for elevated work",
+          "Full safety compliant for elevated work",
         ]
       }}
 

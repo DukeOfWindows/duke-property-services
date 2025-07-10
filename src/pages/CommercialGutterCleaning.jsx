@@ -53,6 +53,14 @@ export default function CommercialGutterCleaning() {
       </>
     ),
   },
+    {
+    question: "Are your team trained and insured?",
+    answer: (
+      <>
+        <strong>100%</strong>. Our crew is trained in commercial site safety, insured for peace of mind, and familiar with working in high-traffic or shared spaces.
+      </>
+    ),
+  },
   {
   question: "What are your payment terms?",
   answer: (
@@ -86,12 +94,12 @@ export default function CommercialGutterCleaning() {
           heading: 'Commercial Gutter Cleaning',
           paragraphs: [
             'Blocked gutters don’t just look bad — they put your building at risk. Overflow can damage roofs, cladding, paths, and even foundations.',
-            'Our commercial gutter cleaning service uses high-reach vacuum systems and live video monitoring to safely remove debris without the need for scaffolding.',
-            'We clean gutters of all shapes and sizes — for factories, office blocks, schools, retail stores and more across Paraparaumu, Waikanae, Otaki, and Levin.',
+            'At Duke Property Services, we use safe, hands-on methods to clear commercial gutters efficiently — without the need for scaffolding or mobile elevating work platforms.',
+            'Our experienced team works from height using ladders and harnesses to get the job done right.',
+            'We clean gutters of all shapes and sizes — for factories, office blocks, schools, retail stores and more across Wellington, Kapiti COast and Horowhenua.',
           ],
           listItems: [
-            'High-reach vacuum cleaning up to 3 storeys',
-            'Live camera inspection for complete visibility',
+            'High-reach cleaning up to 3 storeys',
             'Minimal disruption to daily operations',
             'Full health & safety compliance',
             'Scheduled maintenance plans available',

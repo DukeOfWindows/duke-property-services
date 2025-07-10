@@ -25,15 +25,7 @@ export default function CommercialBuildingWashing() {
     question: "Do you use soft wash or water blasting?",
     answer: (
       <>
-        Both — depending on the surface. <strong>Most building exteriors are cleaned with a soft wash method</strong> using low pressure and a biodegradable detergent. For harder surfaces like concrete, we’ll crank up the pressure where needed.
-      </>
-    ),
-  },
-  {
-    question: "Can you wash multi-storey buildings?",
-    answer: (
-      <>
-        Absolutely. We use <strong>water-fed poles, scaffold towers, boom lifts, or abseil gear</strong> — whatever the building requires. All operators are trained and certified.
+        Both — depending on the surface. <strong>Most building exteriors are cleaned with a soft wash method</strong> using low pressure and appropriate chemicals. For harder surfaces like concrete, we’ll crank up the pressure where needed.
       </>
     ),
   },
@@ -50,6 +42,14 @@ export default function CommercialBuildingWashing() {
     answer: (
       <>
         <strong>Always.</strong> We’re happy to assess the building, talk through your needs, and provide a no-obligation quote with timing, safety plans, and optional add-ons.
+      </>
+    ),
+  },
+    {
+    question: "Are your team trained and insured?",
+    answer: (
+      <>
+        <strong>100%</strong>. Our crew is trained in commercial site safety, insured for peace of mind, and familiar with working in high-traffic or shared spaces.
       </>
     ),
   },
@@ -86,7 +86,7 @@ export default function CommercialBuildingWashing() {
           paragraphs: [
             'Algae, mould, and airborne grime can build up quickly — especially on coastal buildings, painted surfaces, and shaded cladding.',
             'We use a gentle soft wash system designed for commercial properties. It’s safe on paint, panels, signage, and plaster exteriors — and it lasts.',
-            'Let us freshen up your building with minimal disruption and long-term results. We service Paraparaumu, Waikanae, Otaki, and surrounding Kapiti Coast areas.',
+            'Let us freshen up your building with minimal disruption and long-term results. We service Newlands, Porirua, Paraparaumu, Waikanae, Levin, and everywhere in between',
           ],
           listItems: [
             'Low-pressure soft wash for walls and cladding',

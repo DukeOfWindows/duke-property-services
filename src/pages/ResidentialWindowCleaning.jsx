@@ -21,6 +21,16 @@ export default function ResidentialWindowCleaning() {
       </>
     ),
   },
+    {
+    question: "What chemicals do you use?",
+    answer: (
+    <>
+      We don’t use any chemicals for exterior window cleaning — instead, we rely on our <strong>pure water cleaning system</strong>. This system filters out all minerals and impurities, leaving nothing behind on your glass. 
+      <br />
+      The result? <strong>Streak-free, spot-free windows</strong> with no chemical residue, making it safer for your home, garden, and pets.
+    </>
+    ),
+  },
   {
     question: "Do you clean interior windows too?",
     answer: (
