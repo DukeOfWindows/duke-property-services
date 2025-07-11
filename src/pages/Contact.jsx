@@ -6,6 +6,7 @@ import ContactForm from '../components/ContactForm';
 import Navbar from '../components/Navbar';
 import WhyUs from '../components/WhyUs';
 import Footer from '../components/Footer';
+import mapImage from '../images/duke-map.png';
 import OurPartners from '../components/OurPartners';
 
 export default function Contact() {
@@ -39,7 +40,7 @@ export default function Contact() {
     Let&apos;s Chat
   </h2>
       <p className="text-lg">
-        Whether you’ve got a quick question or want to request a quote, I’d love to hear from you.
+        Whether you’ve got a quick question or want to request a quote, we’d love to hear from you.
       </p>
       <div>
         <p className="font-semibold">Phone:</p>
@@ -56,6 +57,25 @@ export default function Contact() {
           </div>
         </div>
       </section>
+
+<section className="w-full py-12 bg-white">
+  <div className="max-w-6xl mx-auto px-6">
+    <img
+      src={mapImage}
+      alt="Duke Property Services service area coverage map"
+      className="w-full h-auto rounded-xl shadow-md"
+    />
+    <a
+      href="https://www.google.com/maps/d/u/0/viewer?mid=1D5HAzWR-I8fFB9pyMqrt_LziofTzJeE&ll=-40.9233489953555%2C175.04719925&z=10"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-duke-blue underline block mt-4 text-center"
+    >
+      View interactive map
+    </a>
+  </div>
+</section>
+
       {/* ⬇ Add CTA, Testimonials, Map, etc. below here ⬇ */}
 <section className="w-full bg-off-white py-12">
   <div className="max-w-6xl mx-auto px-6">

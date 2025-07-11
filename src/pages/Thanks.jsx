@@ -14,7 +14,7 @@ export default function Thanks() {
 
       <Navbar />
       <main className="min-h-[60vh] flex flex-col items-center justify-center px-6 py-20 text-center bg-[#f7f8f6]">
-        <h1 className="text-4xl font-heading font-bold text-duke mb-4">Thanks for Reaching Out!</h1>
+        <h1 className="text-4xl font-heading font-bold text-duke-dark mb-4">Thanks for Reaching Out!</h1>
         <p className="text-lg text-gray-700 max-w-xl">
           We’ve received your message and will be in touch shortly. We look forward to helping you get your property sparkling.
         </p>
