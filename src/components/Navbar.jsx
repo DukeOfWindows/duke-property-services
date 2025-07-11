@@ -116,6 +116,7 @@ export default function Navbar() {
               items={[
                 { label: 'Meet the Team', href: '/about' },
                 { label: 'Testimonials', href: '/#testimonials' },
+                { label: 'Service Area', href: '/contact#service-area' },
                 { label: 'Contact', href: '/contact' },
               ]}
             />
@@ -227,6 +228,7 @@ export default function Navbar() {
             items={[
               { label: 'Meet the Team', href: '/about' },
               { label: 'Testimonials', href: '/#testimonials' },
+              { label: 'Service Area', href: '/contact#service-area' },
               { label: 'Contact', href: '/contact' },
             ]}
           />

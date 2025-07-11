@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <footer className="bg-off-white border-t border-gray-200 pt-10">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10 text-sm space-y-10 md:space-y-0">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-10 text-sm space-y-10 md:space-y-0">
         
         {/* Logo + CTA */}
         <div>
@@ -41,6 +41,33 @@ export default function Footer() {
             <li><Link to="/commercial-gutter-cleaning" className="hover:underline">Gutter Cleaning</Link></li>
           </ul>
         </div>
+        <div>
+  <h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">
+    About
+  </h4>
+  <ul className="space-y-1 text-duke-dark">
+    <li>
+      <Link to="/about" className="hover:underline">
+        Meet the Team
+      </Link>
+    </li>
+    <li>
+      <a href="/#testimonials" className="hover:underline">
+        Testimonials
+      </a>
+    </li>
+    <li>
+      <a href="/contact#service-area" className="hover:underline">
+        Service Area
+      </a>
+    </li>
+    <li>
+      <Link to="/contact" className="hover:underline">
+        Contact
+      </Link>
+    </li>
+  </ul>
+</div>
 
         {/* Contact */}
         <div>
