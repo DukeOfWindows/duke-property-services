@@ -50,7 +50,7 @@ export default function WhyUs() {
   ];
 
   return (
-    <section className="py-20 bg-off-white">
+    <section className="py-20 bg-white">
       <Helmet>
         <title>Why Choose Duke Property Services | Trusted Kapiti Coast Cleaners</title>
         <meta

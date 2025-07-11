@@ -27,37 +27,41 @@ export default function Contact() {
       </section>
 
       {/* Contact Info + Image */}
-      <section className="max-w-6xl mx-auto px-6 py-12 flex bg-off-white flex-col md:flex-row gap-8 items-center">
-        <img
-          src={contactPhoto}
-          alt="Hogan from Duke Property Services"
-          className="w-64 h-64 object-cover rounded-xl shadow-lg"
-        />
-
-        <div className="text-duke-dark space-y-4 font-body">
-<h1 className="text-4xl md:text-5xl font-cursive font-bold text-duke-dark pb-2 inline-block relative after:content-[''] after:block after:w-full after:h-1 after:bg-duke-brown after:rounded-full after:mt-1">
-  Get in Touch
-</h1>
-          <p className="text-lg">
-            Whether you’ve got a quick question or just want a chat, we’d love to hear from you.
-          </p>
-          <div>
-            <p className="font-semibold">Phone:</p>
-            <a href="tel:+64220352725" className="text-duke-blue hover:underline">
-              022 035 2725
-            </a>
-          </div>
-          <div>
-            <p className="font-semibold">Email:</p>
-            <a href="mailto:hello@dukeservices.co.nz" className="text-duke-blue hover:underline">
-              hello@dukeservices.co.nz
-            </a>
+     <section className="w-full bg-white py-12">
+  <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-8 items-center">
+    <img
+      src={contactPhoto}
+      alt="Hogan from Duke Property Services"
+      className="w-64 h-64 object-cover rounded-xl shadow-lg"
+    />
+<div className="w-full md:flex-1 md:pr-6 text-duke-dark font-body space-y-4">
+  <h2 className="text-3xl md:text-4xl font-cursive font-bold text-duke-dark mb-8 inline-block relative after:content-[''] after:block after:w-full after:h-[3px] after:bg-duke-brown after:rounded-full after:mt-2">
+    Let&apos;s Chat
+  </h2>
+      <p className="text-lg">
+        Whether you’ve got a quick question or want to request a quote, I’d love to hear from you.
+      </p>
+      <div>
+        <p className="font-semibold">Phone:</p>
+        <a href="tel:+64220352725" className="text-duke-blue hover:underline">
+          022 035 2725
+        </a>
+      </div>
+      <div>
+        <p className="font-semibold">Email:</p>
+        <a href="mailto:hello@dukeservices.co.nz" className="text-duke-blue hover:underline">
+          hello@dukeservices.co.nz
+    </a>
+            </div>
           </div>
         </div>
       </section>
-
       {/* ⬇ Add CTA, Testimonials, Map, etc. below here ⬇ */}
-   <ContactForm />
+<section className="w-full bg-off-white py-12">
+  <div className="max-w-6xl mx-auto px-6">
+    <ContactForm />
+  </div>
+</section>
               <WhyUs />
       <OurPartners />
               <Footer />

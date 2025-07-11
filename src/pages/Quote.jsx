@@ -18,7 +18,7 @@ export default function Quote() {
       </Helmet>
 
       <Navbar />
-      <main className="py-16 px-6 bg-[#f7f8f6] min-h-screen">
+      <main className="py-16 px-6 bg-off-white min-h-screen">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
