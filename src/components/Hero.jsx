@@ -15,11 +15,6 @@ export default function ResidentialHero({
 }) {
   return (
     <>
-      <Helmet>
-        <title>{pageTitle}</title>
-        <meta name="description" content={metaDescription} />
-      </Helmet>
-
    <section
         className="relative h-[60vh] md:h-[70vh] bg-top md:bg-center bg-no-repeat bg-cover md:bg-fixed flex items-center text-white"
         style={{ backgroundImage: `url(${backgroundImage})`, backgroundPosition: backgroundPosition, }}

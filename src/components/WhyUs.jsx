@@ -51,14 +51,6 @@ export default function WhyUs() {
 
   return (
     <section className="py-20 bg-white">
-      <Helmet>
-        <title>Why Choose Duke Property Services | Trusted Kapiti Coast Cleaners</title>
-        <meta
-          name="description"
-          content="Locally owned and operated exterior cleaning team offering expert services from Whitby to Levin. Fully trained, insured, and committed to safety."
-        />
-      </Helmet>
-
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-4 items-stretch">
         {/* Left: Animated Image */}
         <motion.div
