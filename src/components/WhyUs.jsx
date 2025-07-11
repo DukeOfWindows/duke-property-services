@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet';
 import teamPhoto from '../images/team.png';
 import iconKapiti from '../images/icons/kapiti-dark.png';
 import iconGear from '../images/icons/gear-dark.png';

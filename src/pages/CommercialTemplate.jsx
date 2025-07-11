@@ -34,12 +34,6 @@ export default function CommercialTemplate({
 
   return (
     <>
-      <Helmet>
-        <title>{seoTitle}</title>
-        <meta name="description" content={seoDescription} />
-        <meta name="robots" content="index, follow" />
-      </Helmet>
-
       <Navbar />
 
       <main>
