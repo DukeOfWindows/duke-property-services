@@ -106,7 +106,7 @@ export default function CommercialWindowCleaning() {
       }}
 
       tools={{
-        title: "our commercial-grade toolkit",
+        title: 'Our Commercial-Grade Toolkit',
         subtitle: "Built for Efficiency, Reach, and Results",
         description: "Servicing commercial clients from Pukerua Bay to Levin — including Paraparaumu, Waikanae, Otaki, and more.",
         items: [

@@ -107,7 +107,7 @@ export default function CommercialBuildingWashing() {
         }}
 
         tools={{
-          title: 'our commercial-grade toolkit',
+          title: 'Our Commercial-Grade Toolkit',
           subtitle: 'Purpose-Built for Big Jobs and Delicate Surfaces',
           description:
             'We provide building washing services across Kapiti, including Paraparaumu, Waikanae, Otaki, Peka Peka and more.',

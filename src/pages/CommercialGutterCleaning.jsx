@@ -116,7 +116,7 @@ export default function CommercialGutterCleaning() {
         }}
 
         tools={{
-          title: 'our commercial-grade toolkit',
+          title: 'Our Commercial-Grade Toolkit',
           subtitle: 'Tools Built for Safety, Height & Precision',
           description:
             'Serving commercial clients from Pukerua Bay to Levin, including Otaki, Waikanae, Paraparaumu and surrounding areas.',

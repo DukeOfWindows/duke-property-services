@@ -107,7 +107,7 @@ export default function CommercialPressureWashing() {
       }}
 
       tools={{
-        title: "our commercial-grade toolkit",
+        title: 'Our Commercial-Grade Toolkit',
         subtitle: "Power. Precision. Clean.",
         description: "We service businesses across Kapiti, from Otaki to Paekakariki — carparks, walkways, signage and more.",
         items: [
