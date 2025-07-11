@@ -116,6 +116,7 @@ export default function Navbar() {
               items={[
                 { label: 'Meet the Team', href: '/about' },
                 { label: 'Testimonials', href: '/#testimonials' },
+                { label: 'Contact', href: '/contact' },
               ]}
             />
 
@@ -226,6 +227,7 @@ export default function Navbar() {
             items={[
               { label: 'Meet the Team', href: '/about' },
               { label: 'Testimonials', href: '/#testimonials' },
+              { label: 'Contact', href: '/contact' },
             ]}
           />
         </div>

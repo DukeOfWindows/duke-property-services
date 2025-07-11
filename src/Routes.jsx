@@ -20,6 +20,7 @@ import CommercialPressureWashing from './pages/CommercialPressureWashing.jsx';
 import Quote from './pages/Quote';
 import Thanks from './pages/Thanks';
 import AboutUs from './pages/AboutUs';
+import Contact from './pages/Contact';
 
 export default function SiteRoutes() {
   return (
@@ -43,6 +44,7 @@ export default function SiteRoutes() {
        <Route path="/about" element={<AboutUs />} />
        <Route path="/thanks" element={<Thanks />} />
        <Route path="/quote" element={<Quote />} />
+       <Route path="/contact" element={<Contact />} />
 
         </Routes>
       </main>

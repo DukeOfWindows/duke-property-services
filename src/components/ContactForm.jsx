@@ -20,7 +20,7 @@ export default function ContactForm() {
       acceptCharset="UTF-8"
       className="bg-white p-6 rounded-xl shadow-md space-y-4 max-w-2xl mx-auto"
     >
-      <h2 className="text-3xl font-heading font-bold text-duke text-center mb-2">
+      <h2 className="text-3xl font-heading font-bold text-duke-dark text-center mb-2">
         Request a Free Quote
       </h2>
       <p className="text-center text-gray-600 text-sm mb-4">
