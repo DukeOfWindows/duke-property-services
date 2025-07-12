@@ -20,7 +20,6 @@ import Quote from './pages/Quote';
 import Thanks from './pages/Thanks';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
-import Home from './pages/Home';
 
 
 export default function SiteRoutes() {
