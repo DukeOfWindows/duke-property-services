@@ -66,7 +66,7 @@ export default function Footer() {
             </li>
             <li className="mt-2">
               <a
-                href="https://www.google.com/maps/place/Duke+Property+Services/@-40.839111,175.052583,17z"
+                href="https://www.google.com/maps/place/Duke+Property+Services/@-40.9191098,174.8165732,10z/data=!3m1!4b1!4m6!3m5!1s0x6f37bb7b74372dfb:0x9565c5937ae20580!8m2!3d-40.9201!4d175.1468983!16s%2Fg%2F11kqx63zpc?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-duke-blue hover:underline"
