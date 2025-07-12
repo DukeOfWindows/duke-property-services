@@ -1,7 +1,6 @@
 // src/Routes.jsx
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import ScrollToTop from './components/ScrollToTop';
+import { Routes, Route } from 'react-router-dom';import { Routes, Route, Navigate } from 'react-router-dom';import ScrollToTop from './components/ScrollToTop';
 import App from './App';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -21,6 +20,8 @@ import Quote from './pages/Quote';
 import Thanks from './pages/Thanks';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import Home from './pages/Home';
+
 
 export default function SiteRoutes() {
   return (
@@ -29,6 +30,7 @@ export default function SiteRoutes() {
       <main>
         <Routes>
           <Route path="/" element={<App />} />
+          <Route path="/home" element={<Navigate to="/" replace />} /> {/* ← redirect from old /home */}
           <Route path="/residential-window-cleaning" element={<ResidentialWindowCleaning />} />
           <Route path="/residential-gutter-cleaning" element={<ResidentialGutterCleaning />} />
           <Route path="/residential-house-washing" element={<ResidentialHouseWashing />} />
