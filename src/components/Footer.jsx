@@ -55,32 +55,64 @@ export default function Footer() {
         </div>
 
         {/* Contact */}
-        <div>
-          <h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Contact Us</h4>
-          <ul className="space-y-1 text-gray-700">
-            <li>
-              Phone: <a href="tel:+64220352725" className="text-duke-blue">022 035 2725</a>
-            </li>
-            <li>
-              Email: <a href="mailto:hello@dukeservices.co.nz" className="text-duke-blue">hello@dukeservices.co.nz</a>
-            </li>
-            <li className="mt-2">
-              <a
-                href="https://www.google.com/maps/place/Duke+Property+Services/@-40.9191098,174.8165732,10z/data=!3m1!4b1!4m6!3m5!1s0x6f37bb7b74372dfb:0x9565c5937ae20580!8m2!3d-40.9201!4d175.1468983!16s%2Fg%2F11kqx63zpc?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-duke-blue hover:underline"
-              >
-                ⭐ See us on Google
-              </a>
-            </li>
-            <li className="flex space-x-4 mt-2">
-              <a href="#" aria-label="Visit us on Facebook"><i className="fab fa-facebook text-duke-blue" /></a>
-              <a href="#" aria-label="Visit us on Instagram"><i className="fab fa-instagram text-duke-blue" /></a>
-              <a href="#" aria-label="Visit us on LinkedIn"><i className="fab fa-linkedin text-duke-blue" /></a>
-            </li>
-          </ul>
-        </div>
+<div>
+  <h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">
+    Contact Us
+  </h4>
+  <ul className="space-y-1 text-gray-700">
+    <li>
+      Phone: <a href="tel:+64220352725" className="text-duke-blue">022 035 2725</a>
+    </li>
+    <li>
+      Email: <a href="mailto:hello@dukeservices.co.nz" className="text-duke-blue">hello@dukeservices.co.nz</a>
+    </li>
+    <li>
+      Google:{" "}
+      <a
+        href="https://www.google.com/maps/place/Duke+Property+Services/@-40.9191098,174.8165732,10z/data=!3m1!4b1!4m6!3m5!1s0x6f37bb7b74372dfb:0x9565c5937ae20580!8m2!3d-40.9201!4d175.1468983!16s%2Fg%2F11kqx63zpc"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-duke-blue hover:underline"
+      >
+        Duke Property Services
+      </a>
+    </li>
+<li className="flex space-x-4 mt-2 text-2xl">
+  <a
+    href="https://www.facebook.com/DukePropertyServicesNZ/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit us on Facebook"
+    className="text-duke-blue hover:text-duke-brown transition mt-[2px]"
+  >
+    <svg
+      className="w-6 h-6 fill-current"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 5 3.66 9.13 8.44 9.88v-6.99H7.9v-2.89h2.54V9.96c0-2.5 1.5-3.89 3.8-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.77l-.44 2.89h-2.33v6.99C18.34 21.13 22 17 22 12z" />
+    </svg>
+  </a>
+
+  <a
+    href="https://www.instagram.com/duke_property_services/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit us on Instagram"
+    className="text-duke-blue hover:text-duke-brown transition mt-[2px]"
+  >
+    <svg
+      className="w-6 h-6 fill-current"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.17.05 1.95.25 2.42.42.61.23 1.05.5 1.51.96.46.46.73.9.96 1.51.17.47.37 1.25.42 2.42.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.05 1.17-.25 1.95-.42 2.42a4.05 4.05 0 01-.96 1.51 4.05 4.05 0 01-1.51.96c-.47.17-1.25.37-2.42.42-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.17-.05-1.95-.25-2.42-.42a4.05 4.05 0 01-1.51-.96 4.05 4.05 0 01-.96-1.51c-.17-.47-.37-1.25-.42-2.42C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.05-1.17.25-1.95.42-2.42a4.05 4.05 0 01.96-1.51 4.05 4.05 0 011.51-.96c.47-.17 1.25-.37 2.42-.42C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.13 0-3.5 0-4.73.09-1.02.05-1.57.22-1.93.36-.48.18-.82.39-1.18.75-.36.36-.57.7-.75 1.18-.14.36-.31.91-.36 1.93C3.2 9.5 3.2 9.87 3.2 13s0 3.5.09 4.73c.05 1.02.22 1.57.36 1.93.18.48.39.82.75 1.18.36.36.7.57 1.18.75.36.14.91.31 1.93.36 1.23.09 1.6.09 4.73.09s3.5 0 4.73-.09c1.02-.05 1.57-.22 1.93-.36.48-.18.82-.39 1.18-.75.36-.36.57-.7.75-1.18.14-.36.31-.91.36-1.93.09-1.23.09-1.6.09-4.73s0-3.5-.09-4.73c-.05-1.02-.22-1.57-.36-1.93a2.26 2.26 0 00-.75-1.18 2.26 2.26 0 00-1.18-.75c-.36-.14-.91-.31-1.93-.36C15.5 4 15.13 4 12 4zM12 7.2a4.8 4.8 0 110 9.6 4.8 4.8 0 010-9.6zm0 1.8a3 3 0 100 6 3 3 0 000-6zm4.5-2.3a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" />
+    </svg>
+  </a>
+</li>
+  </ul>
+</div>
+
       </div>
 
       {/* Bottom Bar */}
