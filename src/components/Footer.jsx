@@ -66,7 +66,7 @@ export default function Footer() {
             </li>
             <li className="mt-2">
               <a
-                href="https://maps.app.goo.gl/dWUhjwpf24C2tfUG7"
+                href="https://maps.app.goo.gl/NuQJNmsF2j9K7UWf7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-duke-blue hover:underline"

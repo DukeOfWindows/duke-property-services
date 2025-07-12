@@ -34,7 +34,7 @@ address: {
   "@type": "PostalAddress",
   "streetAddress": "Paetawa Road, Peka Peka, Waikanae",
   "addressLocality": "Kapiti Coast",
-    "postalCode": "5391",
+  "postalCode": "5391",
   "addressRegion": "Wellington",
   "addressCountry": "NZ"
 },
