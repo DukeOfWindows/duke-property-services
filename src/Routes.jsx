@@ -1,6 +1,7 @@
 // src/Routes.jsx
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';import { Routes, Route, Navigate } from 'react-router-dom';import ScrollToTop from './components/ScrollToTop';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import App from './App';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
