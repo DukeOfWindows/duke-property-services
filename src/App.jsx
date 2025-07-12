@@ -39,33 +39,45 @@ function App() {
         <meta name="twitter:image" content="https://yourdomain.com/path-to-hero.jpg" />
 
         <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Duke Property Services",
-              "image": "https://dukepropertyservices.co.nz/src/images/logo.png",
-              "url": "https://dukepropertyservices.co,nz",
-              "telephone": "+64 22 035 2725",
-              "address": {
-                "@type": "Paetawa Road, Peka Peka, Waikanae",
-                "addressLocality": "Kapiti Coast",
-                "addressRegion": "Wellington",
-                "addressCountry": "NZ"
-              },
-              "description": "Duke Property Services offers professional exterior cleaning on the Kapiti Coast, including window washing, gutter clearing, roof treatments, house washing and more.",
-              "areaServed": {
-                "@type": "Place",
-                "name": "Paraparaumu, Waikanae, Raumati, Otaki, and surrounding areas"
-              },
-              "openingHours": "Mo-Su 07:00-19:00",
-              "sameAs": [
-                "https://www.facebook.com/DukePropertyServicesNZ/",
-                "https://www.instagram.com/duke_property_services/"
-              ]
-            }
-          `}
-        </script>
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://dukepropertyservices.co.nz",
+    name: "Duke Property Services",
+    image: "https://dukepropertyservices.co.nz/src/images/logo.png",
+    url: "https://dukepropertyservices.co.nz",
+    telephone: "+64 22 035 2725",
+    priceRange: "$$",
+    address: {
+  "@type": "PostalAddress",
+  "streetAddress": "Paetawa Road, Peka Peka, Waikanae",
+  "addressLocality": "Kapiti Coast",
+  "addressRegion": "Wellington",
+  "addressCountry": "NZ"
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: -40.8327,
+      longitude: 175.0581
+    },
+    description:
+      "Duke Property Services offers professional exterior cleaning on the Kapiti Coast, including window washing, gutter clearing, roof treatments, house washing and more.",
+    areaServed: {
+      "@type": "Place",
+      name: "Paraparaumu, Waikanae, Raumati, Otaki, and surrounding areas"
+    },
+    openingHours: [
+      "Mo-Fr 07:00-19:00",
+      "Sa-Su 08:00-18:00"
+    ],
+    sameAs: [
+      "https://www.facebook.com/DukePropertyServicesNZ/",
+      "https://www.instagram.com/duke_property_services/",
+      "https://maps.app.goo.gl/1VphvKM9w1VL3RRG6"
+    ]
+  })}
+</script>
+
       </Helmet>
 
       <Navbar />

@@ -20,7 +20,8 @@ export default function Footer() {
 
         {/* Residential */}
         <div>
-<h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Residential</h4>          <ul className="space-y-1 text-duke-dark">
+          <h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Residential</h4>
+          <ul className="space-y-1 text-duke-dark">
             <li><Link to="/residential-window-cleaning" className="hover:underline">Window Cleaning</Link></li>
             <li><Link to="/residential-gutter-cleaning" className="hover:underline">Gutter Cleaning</Link></li>
             <li><Link to="/residential-house-washing" className="hover:underline">House Washing</Link></li>
@@ -33,7 +34,7 @@ export default function Footer() {
 
         {/* Commercial */}
         <div>
-<h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Commercial</h4>
+          <h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Commercial</h4>
           <ul className="space-y-1 text-duke-dark">
             <li><Link to="/commercial-window-cleaning" className="hover:underline">Window Cleaning</Link></li>
             <li><Link to="/commercial-building-washing" className="hover:underline">Building Washing</Link></li>
@@ -41,39 +42,38 @@ export default function Footer() {
             <li><Link to="/commercial-gutter-cleaning" className="hover:underline">Gutter Cleaning</Link></li>
           </ul>
         </div>
+
+        {/* About */}
         <div>
-  <h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">
-    About
-  </h4>
-  <ul className="space-y-1 text-duke-dark">
-    <li>
-      <Link to="/about" className="hover:underline">
-        Meet the Team
-      </Link>
-    </li>
-    <li>
-      <a href="/#testimonials" className="hover:underline">
-        Testimonials
-      </a>
-    </li>
-    <li>
-      <a href="/contact#service-area" className="hover:underline">
-        Service Area
-      </a>
-    </li>
-    <li>
-      <Link to="/contact" className="hover:underline">
-        Contact
-      </Link>
-    </li>
-  </ul>
-</div>
+          <h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">About</h4>
+          <ul className="space-y-1 text-duke-dark">
+            <li><Link to="/about" className="hover:underline">Meet the Team</Link></li>
+            <li><a href="/#testimonials" className="hover:underline">Testimonials</a></li>
+            <li><a href="/contact#service-area" className="hover:underline">Service Area</a></li>
+            <li><Link to="/contact" className="hover:underline">Contact</Link></li>
+          </ul>
+        </div>
 
         {/* Contact */}
         <div>
-<h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Contact Us</h4>          <ul className="space-y-1 text-gray-700">
-            <li>Phone: <a href="tel:+64220352725" className="text-duke-blue">022 035 2725</a></li>
-            <li>Email: <a href="mailto:hello@dukeservices.co.nz" className="text-duke-blue">hello@dukeservices.co.nz</a></li>
+          <h4 className="text-duke-dark font-bold mb-2 border-b-2 border-duke-brown inline-block pb-1">Contact Us</h4>
+          <ul className="space-y-1 text-gray-700">
+            <li>
+              Phone: <a href="tel:+64220352725" className="text-duke-blue">022 035 2725</a>
+            </li>
+            <li>
+              Email: <a href="mailto:hello@dukeservices.co.nz" className="text-duke-blue">hello@dukeservices.co.nz</a>
+            </li>
+            <li className="mt-2">
+              <a
+                href="https://maps.app.goo.gl/dWUhjwpf24C2tfUG7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-duke-blue hover:underline"
+              >
+                ⭐ See us on Google
+              </a>
+            </li>
             <li className="flex space-x-4 mt-2">
               <a href="#" aria-label="Visit us on Facebook"><i className="fab fa-facebook text-duke-blue" /></a>
               <a href="#" aria-label="Visit us on Instagram"><i className="fab fa-instagram text-duke-blue" /></a>
