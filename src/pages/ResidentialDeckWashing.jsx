@@ -66,11 +66,13 @@ export default function ResidentialDeckWashing() {
 
   return (
     <>
-    <HelmetSEO
-  pageTitle="Deck Cleaning Kapiti Coast | Duke Property Services"
-  metaDescription="Revive slippery or weathered timber with our expert deck washing. Serving Waikanae, Paraparaumu, Raumati and surrounding areas."
-  canonicalUrl="https://dukepropertyservices.co.nz/residential-deck-washing"
+<HelmetSEO
+  pageTitle="Deck Washing Services Kapiti Coast | Duke Property Services"
+  metaDescription="Restore the look and grip of your timber or composite deck with our professional deck washing services. Serving Waikanae, Raumati, and Paraparaumu."
+  canonicalUrl="https://dukepropertyservices.co.nz/services/deck-washing"
+  image="https://dukepropertyservices.co.nz/images/hero-deck.jpg"
 />
+
     <ResidentialTemplate
       hero={{
         image: heroDeck,

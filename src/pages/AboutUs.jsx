@@ -24,13 +24,41 @@ const fadeInUp = {
 export default function AboutUs() {
   return (
     <>
-      <Helmet>
-        <title>About Duke Property Services | Kapiti Coast Exterior Cleaning Team</title>
-        <meta
-          name="description"
-          content="Meet the local experts behind Duke Property Services—Kapiti Coast's trusted name in window cleaning, house washing, and exterior care. Our story, our team, our mission."
-        />
-      </Helmet>
+<Helmet>
+  <title>About Duke Property Services | Kapiti Coast Exterior Cleaning Team</title>
+  <meta
+    name="description"
+    content="Meet the local experts behind Duke Property Services—Kapiti Coast's trusted name in window cleaning, house washing, and exterior care. Our story, our team, our mission."
+  />
+  <link rel="canonical" href="https://www.dukepropertyservices.co.nz/about" />
+
+  <meta property="og:title" content="About Duke Property Services | Kapiti Coast Exterior Cleaning Team" />
+  <meta property="og:description" content="Meet the trusted local team behind Duke Property Services. Learn who we are and why we care about exterior cleaning on the Kapiti Coast." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.dukepropertyservices.co.nz/about" />
+  <meta property="og:image" content="https://www.dukepropertyservices.co.nz/src/images/logo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Duke Property Services | Kapiti Coast Exterior Cleaning Team" />
+  <meta name="twitter:description" content="Learn more about Duke Property Services—Kapiti Coast’s friendly and professional exterior cleaning team." />
+  <meta name="twitter:image" content="https://www.dukepropertyservices.co.nz/src/images/logo.png" />
+
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Duke Property Services",
+      url: "https://www.dukepropertyservices.co.nz/about",
+      logo: "https://www.dukepropertyservices.co.nz/src/images/logo.png",
+      description: "Learn more about Duke Property Services—Kapiti Coast’s trusted team for professional exterior cleaning, window washing, gutter clearing, and more.",
+      sameAs: [
+        "https://www.facebook.com/DukePropertyServicesNZ/",
+        "https://www.instagram.com/duke_property_services/",
+        "https://maps.app.goo.gl/1VphvKM9w1VL3RRG6"
+      ]
+    })}
+  </script>
+</Helmet>
 
       <Navbar />
 

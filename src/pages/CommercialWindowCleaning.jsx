@@ -65,11 +65,13 @@ export default function CommercialWindowCleaning() {
 
   return (
     <>
-    <HelmetSEO
+<HelmetSEO
   pageTitle="Commercial Window Cleaning Kapiti Coast | Duke Property Services"
-  metaDescription="Keep your storefront or office looking sharp with professional commercial window cleaning in Kapiti. Interior and exterior glass, signage, and glass balustrades."
+  metaDescription="Professional window cleaning for shopfronts, offices, schools, and multi-storey buildings across Kapiti. Reliable, insured, and safety-compliant."
   canonicalUrl="https://dukepropertyservices.co.nz/commercial-window-cleaning"
+  image="https://dukepropertyservices.co.nz/images/hero-commercial-window.jpg"
 />
+
     <CommercialTemplate
       hero={{
         image: heroComWindow,

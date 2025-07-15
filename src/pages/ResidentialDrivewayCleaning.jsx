@@ -66,11 +66,13 @@ export default function ResidentialDrivewayCleaning() {
 
   return (
     <>
-    <HelmetSEO
-  pageTitle="Driveway Cleaning Kapiti Coast | Duke Property Services"
-  metaDescription="Pressure wash away years of stains and moss from your concrete, asphalt, or pavers. Driveway cleaning across the Kapiti Coast."
-  canonicalUrl="https://dukepropertyservices.co.nz/residential-driveway-cleaning"
+<HelmetSEO
+  pageTitle="Driveway & Path Cleaning Kapiti Coast | Duke Property Services"
+  metaDescription="Pressure washing for driveways, concrete paths, pavers, and patios. Remove grime, algae, oil and tire marks for a safer, cleaner entrance."
+  canonicalUrl="https://dukepropertyservices.co.nz/services/driveway-cleaning"
+  image="https://dukepropertyservices.co.nz/images/hero-driveway.jpg"
 />
+
 
     <ResidentialTemplate
       hero={{

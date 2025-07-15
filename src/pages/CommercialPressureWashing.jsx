@@ -66,11 +66,13 @@ export default function CommercialPressureWashing() {
 
   return (
     <>
-    <HelmetSEO
+<HelmetSEO
   pageTitle="Commercial Pressure Washing Kapiti Coast | Duke Property Services"
-  metaDescription="High-power pressure washing for commercial exteriors, pavements, entryways, and public-facing surfaces. Servicing businesses across the Kapiti Coast."
+  metaDescription="High-power surface cleaning for commercial properties — driveways, car parks, courtyards and more. Safe, efficient, and tailored to your site."
   canonicalUrl="https://dukepropertyservices.co.nz/commercial-pressure-washing"
+  image="https://dukepropertyservices.co.nz/images/hero-commercial-pressure.jpg"
 />
+
     <CommercialTemplate
       hero={{
         image: heroPressure,

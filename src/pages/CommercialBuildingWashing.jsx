@@ -66,11 +66,13 @@ export default function CommercialBuildingWashing() {
  
  return (
 <>
-  <HelmetSEO
-    pageTitle="Commercial Building Washing Kapiti Coast | Duke Property Services"
-    metaDescription="Exterior soft washing for commercial buildings across the Kapiti Coast. Safe for signage, plaster, and painted cladding. Serving Paraparaumu, Waikanae, Otaki and more."
-    canonicalUrl="https://dukepropertyservices.co.nz/commercial-building-washing"
-  />
+<HelmetSEO
+  pageTitle="Commercial Building Washing Kapiti Coast | Duke Property Services"
+  metaDescription="Exterior soft washing for commercial buildings across the Kapiti Coast. Safe for signage, plaster, and painted cladding. Serving Paraparaumu, Waikanae, Otaki and more."
+  canonicalUrl="https://dukepropertyservices.co.nz/commercial-building-washing"
+  image="https://dukepropertyservices.co.nz/images/hero-commercial-washing.jpg"
+/>
+
       <CommercialTemplate
         hero={{
           image: heroBuilding,

@@ -75,11 +75,13 @@ export default function ResidentialWindowCleaning() {
 
   return (
     <>
-      <HelmetSEO
-        pageTitle="Residential Window Cleaning Kapiti Coast | Duke Property Services"
-        metaDescription="Need professional residential window cleaning on the Kapiti Coast? Duke Property Services provides reliable, streak-free window cleaning for homes in Paraparaumu, Waikanae, Raumati and beyond."
-        canonicalUrl="https://dukepropertyservices.co.nz/residential-window-cleaning"
-      />
+<HelmetSEO
+  pageTitle="Residential Window Cleaning Kapiti Coast | Duke Property Services"
+  metaDescription="Streak-free window cleaning for homes across Paraparaumu, Waikanae, Otaki and nearby. Trusted professionals who care about detail and safety."
+  canonicalUrl="https://dukepropertyservices.co.nz/services/window-cleaning"
+  image="https://dukepropertyservices.co.nz/images/hero-window.jpg"
+/>
+
 
       <ResidentialTemplate
         hero={{

@@ -58,11 +58,13 @@ export default function ResidentialGutterCleaning() {
 
   return (
     <>
-    <HelmetSEO
-  pageTitle="Gutter Cleaning Kapiti Coast | Duke Property Services"
-  metaDescription="Prevent water damage and protect your home with professional gutter cleaning in Paraparaumu, Waikanae, Raumati, and across the Kapiti Coast."
-  canonicalUrl="https://dukepropertyservices.co.nz/residential-gutter-cleaning"
+<HelmetSEO
+  pageTitle="Residential Gutter Cleaning Kapiti Coast | Duke Property Services"
+  metaDescription="Protect your home from water damage with professional gutter cleaning on the Kapiti Coast. We clean gutters in Paraparaumu, Waikanae, Otaki, and nearby."
+  canonicalUrl="https://dukepropertyservices.co.nz/services/gutter-cleaning"
+  image="https://dukepropertyservices.co.nz/images/hero-gutter.jpg"
 />
+
     <ResidentialTemplate
       hero={{
         image: gutterHero,

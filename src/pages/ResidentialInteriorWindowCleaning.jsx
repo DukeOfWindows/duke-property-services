@@ -67,11 +67,13 @@ export default function ResidentialInteriorWindowCleaning() {
   
   return (
     <>
-    <HelmetSEO
+<HelmetSEO
   pageTitle="Interior Window Cleaning Kapiti Coast | Duke Property Services"
-  metaDescription="Let more light in with crystal-clear indoor windows. We clean skylights, mirrors, and high panes across Paraparaumu, Waikanae, Raumati, and more."
-  canonicalUrl="https://dukepropertyservices.co.nz/residential-interior-window-cleaning"
+  metaDescription="Crystal-clear interior windows, mirrors, and glass surfaces cleaned with care and respect for your home. Trusted by homeowners across Kapiti Coast."
+  canonicalUrl="https://dukepropertyservices.co.nz/services/interior-window-cleaning"
+  image="https://dukepropertyservices.co.nz/images/hero-interior.jpg"
 />
+
     <ResidentialTemplate
       hero={{
         image: heroInterior,
