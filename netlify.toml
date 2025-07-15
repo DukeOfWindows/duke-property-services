@@ -1,0 +1,32 @@
+[build]
+  publish = "dist"
+
+[[redirects]]
+  from = "/home-1"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/home-3"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/services-1"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/blog-2-1"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/residential-windows"
+  to = "/residential-window-cleaning"
+  status = 301
+
+[[redirects]]
+  from = "/home/"
+  to = "/"
+  status = 301
