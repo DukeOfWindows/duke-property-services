@@ -71,6 +71,17 @@ export default function ResidentialDrivewayCleaning() {
   metaDescription="Pressure washing for driveways, concrete paths, pavers, and patios. Remove grime, algae, oil and tire marks for a safer, cleaner entrance."
   canonicalUrl="https://dukepropertyservices.co.nz/services/driveway-cleaning"
   image="https://dukepropertyservices.co.nz/images/hero-driveway.jpg"
+  breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Driveway Cleaning",
+    url: "https://dukepropertyservices.co.nz/residential-driveway-cleaning"
+  }
+]}
+
 />
 
 

@@ -63,6 +63,16 @@ export default function ResidentialGutterCleaning() {
   metaDescription="Protect your home from water damage with professional gutter cleaning on the Kapiti Coast. We clean gutters in Paraparaumu, Waikanae, Otaki, and nearby."
   canonicalUrl="https://dukepropertyservices.co.nz/services/gutter-cleaning"
   image="https://dukepropertyservices.co.nz/images/hero-gutter.jpg"
+breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Residential Gutter Cleaning",
+    url: "https://dukepropertyservices.co.nz/residential-gutter-cleaning"
+  }
+]}
 />
 
     <ResidentialTemplate

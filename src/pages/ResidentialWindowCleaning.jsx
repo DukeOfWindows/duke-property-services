@@ -80,6 +80,16 @@ export default function ResidentialWindowCleaning() {
   metaDescription="Streak-free window cleaning for homes across Paraparaumu, Waikanae, Otaki and nearby. Trusted professionals who care about detail and safety."
   canonicalUrl="https://dukepropertyservices.co.nz/services/window-cleaning"
   image="https://dukepropertyservices.co.nz/images/hero-window.jpg"
+  breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Residential Window Cleaning",
+    url: "https://dukepropertyservices.co.nz/residential-window-cleaning"
+  }
+]}
 />
 
 

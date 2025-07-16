@@ -70,6 +70,17 @@ export default function ResidentialRoofTreatment() {
   metaDescription="Kill lichen, moss, and mould on your roof with our safe and effective roof treatment services. Long-lasting results with no pressure washing required."
   canonicalUrl="https://dukepropertyservices.co.nz/services/roof-treatment"
   image="https://dukepropertyservices.co.nz/images/hero-roof.jpg"
+  breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Roof Treatment",
+    url: "https://dukepropertyservices.co.nz/residential-roof-treatment"
+  }
+]}
+
 />
 
     <ResidentialTemplate

@@ -5,7 +5,8 @@ export default function HelmetSEO({
   pageTitle,
   metaDescription,
   canonicalUrl,
-  image = "https://dukepropertyservices.co.nz/src/images/logo.png"
+  image = "https://dukepropertyservices.co.nz/src/images/logo.png",
+  breadcrumbItems
 }) {
   return (
     <Helmet>
@@ -67,6 +68,21 @@ export default function HelmetSEO({
           ]
         })}
       </script>
+{breadcrumbItems && (
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: breadcrumbItems.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        item: item.url,
+      })),
+    })}
+  </script>
+)}
+
     </Helmet>
   );
 }

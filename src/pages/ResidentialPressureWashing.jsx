@@ -71,6 +71,17 @@ export default function ResidentialPressureWashing() {
   metaDescription="Crystal-clear interior windows, mirrors, and glass surfaces cleaned with care and respect for your home. Trusted by homeowners across Kapiti Coast."
   canonicalUrl="https://dukepropertyservices.co.nz/services/interior-window-cleaning"
   image="https://dukepropertyservices.co.nz/images/hero-interior.jpg"
+breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Residential Pressure Washing",
+    url: "https://dukepropertyservices.co.nz/residential-pressure-washing"
+  }
+]}
+
 />
 
 

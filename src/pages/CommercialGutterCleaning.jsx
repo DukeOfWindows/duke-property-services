@@ -79,6 +79,17 @@ export default function CommercialGutterCleaning() {
   metaDescription="Prevent overflow and water damage with professional gutter clearing for commercial buildings. Servicing offices, schools, and retail properties across the Kapiti Coast."
   canonicalUrl="https://dukepropertyservices.co.nz/commercial-gutter-cleaning"
   image="https://dukepropertyservices.co.nz/images/hero-commercial-gutter.jpg"
+  breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Commercial Gutter Cleaning",
+    url: "https://dukepropertyservices.co.nz/commercial-gutter-cleaning"
+  }
+]}
+
 />
 
 

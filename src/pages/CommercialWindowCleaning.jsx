@@ -70,6 +70,17 @@ export default function CommercialWindowCleaning() {
   metaDescription="Professional window cleaning for shopfronts, offices, schools, and multi-storey buildings across Kapiti. Reliable, insured, and safety-compliant."
   canonicalUrl="https://dukepropertyservices.co.nz/commercial-window-cleaning"
   image="https://dukepropertyservices.co.nz/images/hero-commercial-window.jpg"
+  breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Commercial Window Cleaning",
+    url: "https://dukepropertyservices.co.nz/commercial-window-cleaning"
+  }
+]}
+
 />
 
     <CommercialTemplate

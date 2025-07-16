@@ -71,6 +71,17 @@ export default function CommercialPressureWashing() {
   metaDescription="High-power surface cleaning for commercial properties — driveways, car parks, courtyards and more. Safe, efficient, and tailored to your site."
   canonicalUrl="https://dukepropertyservices.co.nz/commercial-pressure-washing"
   image="https://dukepropertyservices.co.nz/images/hero-commercial-pressure.jpg"
+  breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Commercial Pressure Washing",
+    url: "https://dukepropertyservices.co.nz/commercial-pressure-washing"
+  }
+]}
+
 />
 
     <CommercialTemplate

@@ -71,6 +71,17 @@ export default function CommercialBuildingWashing() {
   metaDescription="Exterior soft washing for commercial buildings across the Kapiti Coast. Safe for signage, plaster, and painted cladding. Serving Paraparaumu, Waikanae, Otaki and more."
   canonicalUrl="https://dukepropertyservices.co.nz/commercial-building-washing"
   image="https://dukepropertyservices.co.nz/images/hero-commercial-washing.jpg"
+  breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Commercial Building Washing",
+    url: "https://dukepropertyservices.co.nz/commercial-building-washing"
+  }
+]}
+
 />
 
       <CommercialTemplate

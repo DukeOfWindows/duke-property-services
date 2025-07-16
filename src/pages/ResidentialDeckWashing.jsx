@@ -71,6 +71,17 @@ export default function ResidentialDeckWashing() {
   metaDescription="Restore the look and grip of your timber or composite deck with our professional deck washing services. Serving Waikanae, Raumati, and Paraparaumu."
   canonicalUrl="https://dukepropertyservices.co.nz/services/deck-washing"
   image="https://dukepropertyservices.co.nz/images/hero-deck.jpg"
+  breadcrumbItems={[
+  {
+    name: "Home",
+    url: "https://dukepropertyservices.co.nz/"
+  },
+  {
+    name: "Deck Washing",
+    url: "https://dukepropertyservices.co.nz/residential-deck-washing"
+  }
+]}
+
 />
 
     <ResidentialTemplate
