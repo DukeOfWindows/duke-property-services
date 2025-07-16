@@ -8,10 +8,10 @@ import TestimonialSlider from '../components/TestimonialSlider';
 import testimonials from '../data/testimonialsData';
 import WhatWeClean from '../components/WhatWeClean';
 
-import heroAbout from '../images/hero-about.jpg';
-import hoganImg from '../images/team-hogan.jpg';
-import tylerImg from '../images/team-tyler.jpg';
-import koaImg from '../images/team-koa.jpg';
+import heroAbout from '../images/about-duke-property-services-team.webp';
+import hoganImg from '../images/duke-property-services-team-hogan.webp';
+import tylerImg from '../images/duke-property-services-team-tyler.webp';
+import koaImg from '../images/duke-property-dog-koa-cute.webp';
 import heartIcon from '../images/icons/heart.png';
 import historyIcon from '../images/icons/history.png';
 import targetIcon from '../images/icons/target.png';

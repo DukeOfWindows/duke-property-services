@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import HelmetSEO from '../components/HelmetSEO';
 
 import ResidentialTemplate from './ResidentialTemplate';
-import heroInterior from '../images/hero-interior.jpg';
-import tallInterior from '../images/interior-square.jpg';
-import clothImg from '../images/tools/clothRI.jpg';
-import SqueegeeImg from '../images/tools/squeegeeRI.jpg';
-import PoleImg from '../images/tools/poleRI.jpg';
+import heroInterior from '../images/interior-window-cleaning-service.webp';
+import tallInterior from '../images/interior-glass-clean-example.webp';
+import clothImg from '../images/tools/microfibre-cloth-detailing.webp';
+import SqueegeeImg from '../images/tools/residential-squeegee-tool.webp';
+import PoleImg from '../images/tools/reach-pole-glass-cleaning.webp';
 import sparkleIcon from '../images/icons/window.png';
 import sunIcon from '../images/icons/sun.png';
 import airIcon from '../images/icons/cleanAir.png';

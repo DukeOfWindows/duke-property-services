@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import ResidentialTemplate from './ResidentialTemplate';
 import HelmetSEO from '../components/HelmetSEO';
 
-import pressureHero from '../images/hero-pressure.jpg';
-import tallPressure from '../images/pressure-square.jpg';
-import pressureGunImg from '../images/tools/pressuregunRP.jpg';
-import surfaceCleanerImg from '../images/tools/surfaceRP.jpg';
-import fanImg from '../images/tools/fanRP.jpg';
+import pressureHero from '../images/pressure-washing-concrete-driveway.webp';
+import tallPressure from '../images/high-pressure-wash-example-driveway.webp';
+import pressureGunImg from '../images/tools/commercial-pressure-gun-closeup.webp';
+import surfaceCleanerImg from '../images/tools/multi-surface-pressure-cleaning.webp';
+import fanImg from '../images/tools/fan-nozzle-softwash-sprayer.webp';
 import grimeIcon from '../images/icons/pressure.png';
 import slipIcon from '../images/icons/slip.png';
 import patioIcon from '../images/icons/house.png';

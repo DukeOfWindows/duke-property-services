@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import HelmetSEO from '../components/HelmetSEO';
 
 import ResidentialTemplate from './ResidentialTemplate';
-import houseHero from '../images/hero-house.jpg';
-import tallHouse from '../images/house-square.jpg';
-import softwashImg from '../images/tools/softwashRH.jpg';
-import brushImg from '../images/tools/brushRH.jpg';
-import tankImg from '../images/tools/tankRH.jpg';
+import houseHero from '../images/house-washing-kapiti-coast-softwash.webp';
+import tallHouse from '../images/exterior-house-softwash-before-after.webp';
+import softwashImg from '../images/tools/roof-softwash-delivery-system.webp';
+import brushImg from '../images/tools/soft-brush-commercial-signage-cleaning.webp';
+import tankImg from '../images/tools/onboard-water-tank-system.webp';
 import panelIcon from '../images/icons/panel.png';
 import houseIcon from '../images/icons/house.png';
 import airIcon from '../images/icons/cleanAir.png';

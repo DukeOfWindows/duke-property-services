@@ -6,7 +6,7 @@ import TestimonialSlider from './components/TestimonialSlider';
 import HowItWorks from './components/HowItWorks';
 import Navbar from './components/Navbar';
 import WhyUs from './components/WhyUs';
-import heroImage from './images/hero.jpg'; 
+import heroImage from './images/hero-image.webp'; 
 import Footer from './components/Footer';
 import WhatWeClean from './components/WhatWeClean';
 import CTAButton from './components/CTAButton';

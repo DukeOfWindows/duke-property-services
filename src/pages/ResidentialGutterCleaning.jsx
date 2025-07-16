@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import HelmetSEO from '../components/HelmetSEO';
 
 import ResidentialTemplate from './ResidentialTemplate';
-import gutterHero from '../images/hero-gutter.jpg';
-import tallGutter from '../images/gutter-square.jpg';
-import ladderImg from '../images/tools/ladderRG.jpg';
-import harnessImg from '../images/tools/harnessRG.jpg';
-import softwashImg from '../images/tools/softwashRG.jpg';
+import gutterHero from '../images/gutter-cleaning-paraparaumu-waikanae.webp';
+import tallGutter from '../images/gutter-blockage-example-kapiti.webp';
+import ladderImg from '../images/tools/ladder-placement-gutter-access.webp';
+import harnessImg from '../images/tools/fall-arrest-harness-hooked.webp';
+import softwashImg from '../images/tools/softwash-nozzle-low-pressure.webp';
 import foundationIcon from '../images/icons/foundation.png';
 import shieldIcon from '../images/icons/shield.png';
 import gutterpest from '../images/icons/gutter-pest.png';

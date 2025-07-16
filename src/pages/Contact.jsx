@@ -1,12 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import contactHero from '../images/contactHero.jpg'; // swap with your hero image
-import contactPhoto from '../images/tools/pressuregunRP.jpg';   // swap with your portrait
+import contactHero from '../images/contacthero-image.webp'; // swap with your hero image
+import contactPhoto from '../images/tools/commercial-pressure-gun-closeup.webp';   // swap with your portrait
 import ContactForm from '../components/ContactForm';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import mapImage from '../images/duke-map.png';
+import mapImage from '../images/service-area-map-kapiti-coast.webp';
 import OurPartners from '../components/OurPartners';
 
 const fadeInUp = {
