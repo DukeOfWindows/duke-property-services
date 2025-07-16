@@ -68,7 +68,7 @@ export default function ResidentialRoofTreatment() {
 <HelmetSEO
   pageTitle="Roof Treatments & Moss Control | Duke Property Services Kapiti Coast"
   metaDescription="Kill lichen, moss, and mould on your roof with our safe and effective roof treatment services. Long-lasting results with no pressure washing required."
-  canonicalUrl="https://dukepropertyservices.co.nz/services/roof-treatment"
+  canonicalUrl="https://dukepropertyservices.co.nz/residential-roof-treatment"
   image="https://dukepropertyservices.co.nz/images/hero-roof.jpg"
   breadcrumbItems={[
   {

@@ -70,7 +70,7 @@ const faqItems = [
 <HelmetSEO
   pageTitle="House Washing Kapiti Coast | Duke Property Services"
   metaDescription="Gentle soft washing for all house types across Kapiti Coast. Remove grime, algae, and mildew from cladding, joinery, and soffits — safely and thoroughly."
-  canonicalUrl="https://dukepropertyservices.co.nz/services/house-washing"
+  canonicalUrl="https://dukepropertyservices.co.nz/residential-house-washing"
   image="https://dukepropertyservices.co.nz/images/hero-house.jpg"
 breadcrumbItems={[
   {

@@ -78,7 +78,7 @@ export default function ResidentialWindowCleaning() {
 <HelmetSEO
   pageTitle="Residential Window Cleaning Kapiti Coast | Duke Property Services"
   metaDescription="Streak-free window cleaning for homes across Paraparaumu, Waikanae, Otaki and nearby. Trusted professionals who care about detail and safety."
-  canonicalUrl="https://dukepropertyservices.co.nz/services/window-cleaning"
+  canonicalUrl="https://dukepropertyservices.co.nz/residential-window-cleaning"
   image="https://dukepropertyservices.co.nz/images/hero-window.jpg"
   breadcrumbItems={[
   {

@@ -70,7 +70,7 @@ export default function ResidentialInteriorWindowCleaning() {
 <HelmetSEO
   pageTitle="Interior Window Cleaning Kapiti Coast | Duke Property Services"
   metaDescription="Crystal-clear interior windows, mirrors, and glass surfaces cleaned with care and respect for your home. Trusted by homeowners across Kapiti Coast."
-  canonicalUrl="https://dukepropertyservices.co.nz/services/interior-window-cleaning"
+  canonicalUrl="https://dukepropertyservices.co.nz/residential-interior-window-cleaning"
   image="https://dukepropertyservices.co.nz/images/hero-interior.jpg"
 breadcrumbItems={[
   {
