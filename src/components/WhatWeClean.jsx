@@ -13,7 +13,7 @@ import comgutterIcon from '../images/icons/gutter-dark.png';
 import buildingIcon from '../images/icons/building-dark.png';
 import compressureIcon from '../images/icons/pressure-dark.png';
 import logo from '../images/logo.png';
-import housePhoto from '../images/housephoto.jpg';
+import housePhoto from '../images/residential-house-washed-clean-result.webp';
 
 export default function WhatWeClean() {
   const [tab, setTab] = useState('residential');
