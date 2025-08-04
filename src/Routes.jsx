@@ -21,6 +21,8 @@ import Quote from './pages/Quote';
 import Thanks from './pages/Thanks';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
+import BlogHome from './blog/BlogHome';
+import BlogPostWrapper from './blog/BlogPostWrapper';
 
 
 export default function SiteRoutes() {
@@ -47,6 +49,8 @@ export default function SiteRoutes() {
        <Route path="/thanks" element={<Thanks />} />
        <Route path="/quote" element={<Quote />} />
        <Route path="/contact" element={<Contact />} />
+       <Route path="/blog" element={<BlogHome />} />
+<Route path="/blog/:slug" element={<BlogPostWrapper />} />
 
         </Routes>
       </main>
