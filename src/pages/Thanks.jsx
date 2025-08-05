@@ -2,22 +2,29 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import logo from '../images/logo.png'
+import logo from '../images/logo.png';
 
 export default function Thanks() {
-    // Fire the Google Ads conversion event on page load
-  useEffect(() => {
-    if (window.gtag) {
-      window.gtag('event', 'conversion', {
-        send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA',
-      });
-    }
-  }, []);
   return (
     <>
       <Helmet>
         <title>Thank You | Duke Property Services</title>
         <meta name="description" content="Thanks for getting in touch with Duke Property Services. We'll respond shortly and look forward to helping you!" />
+        
+        {/* Google Ads Conversion Tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17431915316"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-17431915316');
+            gtag('event', 'conversion', {
+              'send_to': 'AW-17431915316/2EAHCLbz0P8aELTWI_hA'
+            });
+          `}
+        </script>
       </Helmet>
 
       <Navbar />
