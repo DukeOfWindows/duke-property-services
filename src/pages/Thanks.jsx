@@ -5,17 +5,16 @@ import Footer from '../components/Footer';
 import logo from '../images/logo.png';
 
 export default function Thanks() {
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', 'conversion', {
-          send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA',
-        });
-      }
-    }, 1500); // wait 1.5s to ensure gtag is loaded
-
-    return () => clearTimeout(timer);
-  }, []);
+useEffect(() => {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA',
+    });
+    console.log("✅ Conversion event fired!");
+  } else {
+    console.warn("❌ gtag not available when trying to fire conversion");
+  }
+}, []);
 
   return (
     <>
