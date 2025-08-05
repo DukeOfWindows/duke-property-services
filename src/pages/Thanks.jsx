@@ -1,28 +1,33 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import logo from '../images/logo.png';
 
 export default function Thanks() {
+  useEffect(() => {
+    // Make sure gtag is available before firing
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA'
+      });
+    }
+  }, []);
+
   return (
     <>
       <Helmet>
         <title>Thank You | Duke Property Services</title>
         <meta name="description" content="Thanks for getting in touch with Duke Property Services. We'll respond shortly and look forward to helping you!" />
-        
-        {/* Google Ads Conversion Tag */}
+
+        {/* Load Google Ads global site tag */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17431915316"></script>
         <script>
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'AW-17431915316');
-            gtag('event', 'conversion', {
-              'send_to': 'AW-17431915316/2EAHCLbz0P8aELTWI_hA'
-            });
           `}
         </script>
       </Helmet>
