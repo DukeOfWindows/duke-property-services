@@ -6,16 +6,15 @@ import logo from '../images/logo.png';
 
 export default function Thanks() {
   useEffect(() => {
-    const interval = setInterval(() => {
+    const timer = setTimeout(() => {
       if (typeof window.gtag === 'function') {
         window.gtag('event', 'conversion', {
           send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA',
         });
-        clearInterval(interval);
       }
-    }, 300);
+    }, 1500); // wait 1.5s to ensure gtag is loaded
 
-    return () => clearInterval(interval);
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -34,11 +33,7 @@ export default function Thanks() {
         <p className="text-lg text-gray-700 max-w-xl">
           We’ve received your message and will be in touch shortly. We look forward to helping you get your property sparkling.
         </p>
-        <img
-          src={logo}
-          alt="Duke Property Services logo"
-          className="w-40 mt-10"
-        />
+        <img src={logo} alt="Duke Property Services logo" className="w-40 mt-10" />
       </main>
       <Footer />
     </>
