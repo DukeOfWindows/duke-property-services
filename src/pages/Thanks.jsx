@@ -5,6 +5,14 @@ import Footer from '../components/Footer';
 import logo from '../images/logo.png'
 
 export default function Thanks() {
+    // Fire the Google Ads conversion event on page load
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA',
+      });
+    }
+  }, []);
   return (
     <>
       <Helmet>
