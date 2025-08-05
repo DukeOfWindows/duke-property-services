@@ -125,12 +125,17 @@ export default function Navbar() {
               <CTAButton href="/quote" className="font-body" />
 
               <div className="flex flex-col text-sm font-body text-right leading-tight">
-                <a
-                  href="tel:+64220352725"
-                  className="text-duke-dark hover:text-duke-blue transition-colors duration-200"
-                >
-                  022 035 2725
-                </a>
+    <a
+    href="tel:+64220352725"
+    onClick={() => {
+      if (typeof window !== 'undefined' && typeof window.gtag_report_conversion === 'function') {
+        window.gtag_report_conversion();
+      }
+    }}
+    className="text-duke-dark hover:text-duke-blue transition-colors duration-200"
+  >
+    022 035 2725
+  </a>
                 <a
                   href="mailto:hello@dukeservices.co.nz"
                   className="text-duke-dark hover:text-duke-blue transition-colors duration-200"
