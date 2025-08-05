@@ -8,7 +8,7 @@ export default function Thanks() {
 useEffect(() => {
   if (typeof window.gtag === 'function') {
     window.gtag('event', 'conversion', {
-      send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA',
+      send_to: 'AW-17431915316/5mDUCOuGqoAbELTWl_hA',
     });
     console.log("✅ Conversion event fired!");
   } else {
