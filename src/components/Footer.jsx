@@ -60,9 +60,20 @@ export default function Footer() {
     Contact Us
   </h4>
   <ul className="space-y-1 text-gray-700">
-    <li>
-      Phone: <a href="tel:+64220352725" className="text-duke-blue">022 035 2725</a>
-    </li>
+<li>
+  Phone:{' '}
+  <a
+    href="tel:+64220352725"
+    onClick={() => {
+      if (typeof window !== 'undefined' && typeof window.gtag_report_conversion === 'function') {
+        window.gtag_report_conversion();
+      }
+    }}
+    className="text-duke-blue"
+  >
+    022 035 2725
+  </a>
+</li>
     <li>
       Email: <a href="mailto:hello@dukeservices.co.nz" className="text-duke-blue">hello@dukeservices.co.nz</a>
     </li>

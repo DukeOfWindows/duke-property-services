@@ -178,12 +178,17 @@ export default function Navbar() {
       <CTAButton href="/quote" className="w-auto font-body">
         Request Quote
       </CTAButton>
-      <a
-        href="tel:+64220352725"
-        className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
-      >
-        022 035 2725
-      </a>
+<a
+  href="tel:+64220352725"
+  onClick={() => {
+    if (typeof window !== 'undefined' && typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion();
+    }
+  }}
+  className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
+>
+  022 035 2725
+</a>
       <a
         href="mailto:hello@dukeservices.co.nz"
         className="inline-block px-6 py-3 bg-duke-dark text-white rounded-xl font-body text-sm shadow hover:bg-duke-blue transition-colors duration-200"
