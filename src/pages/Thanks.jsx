@@ -5,15 +5,6 @@ import Footer from '../components/Footer';
 import logo from '../images/logo.png';
 
 export default function Thanks() {
-  useEffect(() => {
-    // Make sure gtag is available before firing
-    if (typeof window.gtag === 'function') {
-      window.gtag('event', 'conversion', {
-        send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA'
-      });
-    }
-  }, []);
-
   return (
     <>
       <Helmet>
