@@ -5,6 +5,19 @@ import Footer from '../components/Footer';
 import logo from '../images/logo.png';
 
 export default function Thanks() {
+useEffect(() => {
+  const interval = setInterval(() => {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-17431915316/2EAHCLbz0P8aELTWI_hA',
+      });
+      clearInterval(interval);
+    }
+  }, 300); // Poll every 300ms
+
+  return () => clearInterval(interval);
+}, []);
+
   return (
     <>
       <Helmet>
