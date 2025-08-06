@@ -28,7 +28,7 @@ function App() {
           name="description"
           content="Friendly, reliable, and professional exterior cleaning across the Kapiti Coast. Duke Property Services offers window washing, gutter cleaning, house washing, roof treatments, and more."
         />
-          <link rel="canonical" href="https://www.dukepropertyservices.co.nz/" />
+          <link rel="canonical" href="https://www.dukepropertyservices.co.nz" />
           
         <meta property="og:title" content="Duke Property Services | Kapiti Coast Exterior Cleaning Experts" />
         <meta property="og:description" content="Exterior cleaning for homes and businesses across Kapiti Coast — by friendly, reliable professionals." />
