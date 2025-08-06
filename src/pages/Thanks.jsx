@@ -9,6 +9,9 @@ useEffect(() => {
   if (typeof window.gtag === 'function') {
     window.gtag('event', 'conversion', {
       send_to: 'AW-17431915316/5mDUCOuGqoAbELTWl_hA',
+      event_callback: () => {
+        console.log("✅ Google Ads conversion callback fired");
+      },
     });
     console.log("✅ Conversion event fired!");
   } else {
