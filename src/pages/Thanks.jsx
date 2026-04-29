@@ -8,7 +8,7 @@ export default function Thanks() {
   return (
     <>
       <Helmet>
-        <title>Thank You | Duke Property Services</title>
+        <title>Thank You | Duke Property Wash</title>
         <meta
           name="description"
           content="Thanks for getting in touch with Duke Property Services. We'll respond shortly and look forward to helping you!"

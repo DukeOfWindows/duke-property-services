@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Duke Property Services | Kapiti Exterior Cleaners</title>
+        <title>Contact Duke Property Wash | Kapiti Exterior Cleaners</title>
         <meta
           name="description"
           content="Get in touch with Duke Property Services. We're here to help with window cleaning, house washing, and more across the Kapiti Coast."
@@ -43,7 +43,7 @@ export default function Contact() {
   <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-8 items-center">
     <img
       src={contactPhoto}
-      alt="Hogan from Duke Property Services"
+      alt="Hogan from Duke Property Wash"
       className="w-64 h-64 object-cover rounded-xl shadow-lg"
     />
 <div className="w-full md:flex-1 md:pr-6 text-duke-dark font-body space-y-4">
@@ -94,7 +94,7 @@ export default function Contact() {
     <div className="md:w-2/3">
       <img
         src={mapImage}
-        alt="Duke Property Services service area coverage map"
+        alt="Duke Property Wash service area coverage map"
         className="w-full h-auto rounded-xl shadow-md"
       />
       <a

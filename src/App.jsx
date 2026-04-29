@@ -23,20 +23,20 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Duke Property Services | Kapiti Coast Exterior Cleaning Experts</title>
+        <title>Duke Property Wash | Kapiti Coast Exterior Cleaning Experts</title>
         <meta
           name="description"
-          content="Friendly, reliable, and professional exterior cleaning across the Kapiti Coast. Duke Property Services offers window washing, gutter cleaning, house washing, roof treatments, and more."
+          content="Friendly, reliable, and professional exterior cleaning across the Kapiti Coast. Duke Property Wash offers window washing, gutter cleaning, house washing, roof treatments, and more."
         />
           <link rel="canonical" href="https://www.dukepropertyservices.co.nz" />
           
-        <meta property="og:title" content="Duke Property Services | Kapiti Coast Exterior Cleaning Experts" />
+        <meta property="og:title" content="Duke Property Wash | Kapiti Coast Exterior Cleaning Experts" />
         <meta property="og:description" content="Exterior cleaning for homes and businesses across Kapiti Coast — by friendly, reliable professionals." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://dukepropertyservices.co.nz" />
         <meta property="og:image" content="https://dukepropertyservices.co.nz/src/images/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Duke Property Services | Kapiti Coast Exterior Cleaning Experts" />
+        <meta name="twitter:title" content="Duke Property Wash | Kapiti Coast Exterior Cleaning Experts" />
         <meta name="twitter:description" content="Exterior cleaning services for homes and businesses throughout the Kapiti Coast." />
         <meta name="twitter:image" content="https://yourdomain.com/path-to-hero.jpg" />
 
@@ -45,7 +45,7 @@ function App() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://dukepropertyservices.co.nz",
-    name: "Duke Property Services",
+    name: "Duke Property Wash",
     image: "https://dukepropertyservices.co.nz/src/images/logo.png",
     url: "https://dukepropertyservices.co.nz",
     telephone: "+64 22 035 2725",
@@ -64,7 +64,7 @@ function App() {
       longitude: 175.0581
     },
     description:
-      "Duke Property Services offers professional exterior cleaning on the Kapiti Coast, including window washing, gutter clearing, roof treatments, house washing and more.",
+      "Duke Property Wash offers professional exterior cleaning on the Kapiti Coast, including window washing, gutter clearing, roof treatments, house washing and more.",
     areaServed: {
       "@type": "Place",
       name: "Paraparaumu, Waikanae, Raumati, Otaki, and surrounding areas"
@@ -74,8 +74,8 @@ function App() {
       "Sa-Su 08:00-18:00"
     ],
     sameAs: [
-      "https://www.facebook.com/DukePropertyServicesNZ/",
-      "https://www.instagram.com/duke_property_services/",
+      "https://www.facebook.com/DukePropertyWash",
+      "https://www.instagram.com/duke_property_wash/",
       "https://maps.app.goo.gl/1VphvKM9w1VL3RRG6"
     ]
   })}

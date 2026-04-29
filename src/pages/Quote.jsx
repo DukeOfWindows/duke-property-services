@@ -10,7 +10,7 @@ export default function Quote() {
   return (
     <>
       <Helmet>
-        <title>Get a Free Quote | Duke Property Services Kapiti Coast</title>
+        <title>Get a Free Quote | Duke Property Wash Kapiti Coast</title>
         <meta
           name="description"
           content="Request a free quote for window cleaning, house washing, or gutter services from Duke Property Services. Proudly serving the Kapiti Coast, from Pukerua Bay to Levin."

@@ -25,29 +25,29 @@ export default function AboutUs() {
   return (
     <>
 <Helmet>
-  <title>About Duke Property Services | Kapiti Coast Exterior Cleaning Team</title>
+  <title>About Duke Property Wash | Kapiti Coast Exterior Cleaning Team</title>
   <meta
     name="description"
-    content="Meet the local experts behind Duke Property Services—Kapiti Coast's trusted name in window cleaning, house washing, and exterior care. Our story, our team, our mission."
+    content="Meet the local experts behind Duke Property Wash—Kapiti Coast's trusted name in window cleaning, house washing, and exterior care. Our story, our team, our mission."
   />
   <link rel="canonical" href="https://www.dukepropertyservices.co.nz/about" />
 
-  <meta property="og:title" content="About Duke Property Services | Kapiti Coast Exterior Cleaning Team" />
+  <meta property="og:title" content="About Duke Property Wash | Kapiti Coast Exterior Cleaning Team" />
   <meta property="og:description" content="Meet the trusted local team behind Duke Property Services. Learn who we are and why we care about exterior cleaning on the Kapiti Coast." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.dukepropertyservices.co.nz/about" />
   <meta property="og:image" content="https://www.dukepropertyservices.co.nz/src/images/logo.png" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="About Duke Property Services | Kapiti Coast Exterior Cleaning Team" />
-  <meta name="twitter:description" content="Learn more about Duke Property Services—Kapiti Coast’s friendly and professional exterior cleaning team." />
+  <meta name="twitter:title" content="About Duke Property Wash | Kapiti Coast Exterior Cleaning Team" />
+  <meta name="twitter:description" content="Learn more about Duke Property Wash -  Coast’s friendly and professional exterior cleaning team." />
   <meta name="twitter:image" content="https://www.dukepropertyservices.co.nz/src/images/logo.png" />
 
   <script type="application/ld+json">
     {JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Duke Property Services",
+      name: "Duke Property Wash",
       url: "https://www.dukepropertyservices.co.nz/about",
       logo: "https://www.dukepropertyservices.co.nz/src/images/logo.png",
       description: "Learn more about Duke Property Services—Kapiti Coast’s trusted team for professional exterior cleaning, window washing, gutter clearing, and more.",
@@ -76,7 +76,7 @@ export default function AboutUs() {
     variants={fadeInUp}
   >
     <h1 className="text-5xl font-heading font-bold mb-4">
-      Meet the Team at Duke Property Services
+      Meet the Team at Duke Property Wash
     </h1>
     <p className="text-xl font-body">
       Where integrity, community, and elbow grease meet
@@ -96,7 +96,7 @@ export default function AboutUs() {
             Our Origin Story
           </h2>
           <p className="text-lg font-body mb-4">
-            Duke Property Services was founded when Hogan Gill noticed too many locals were either overpaying or being under-served by other exterior cleaning companies. With a ladder, a bucket, and a whole lot of hustle, Duke began with one goal: deliver high-quality, honest work that made a visible difference.
+            Duke Property Wash was founded when Hogan Gill noticed too many locals were either overpaying or being under-served by other exterior cleaning companies. With a ladder, a bucket, and a whole lot of hustle, Duke began with one goal: deliver high-quality, honest work that made a visible difference.
           </p>
           <p className="text-lg font-body">
             Since then, the team has grown — but the commitment to community and detail hasn't changed.
@@ -110,14 +110,14 @@ export default function AboutUs() {
       name: 'Hogan',
       title: 'Founder',
       img: hoganImg,
-      alt: 'Hogan Gill, Founder of Duke Property Services',
+      alt: 'Hogan Gill, Founder of Duke Property Wash',
       desc: `Hogan was lucky enough to have a decades experienced uncle teach him everything he knows. Now he's been sprucing windows and properties for over seven years.\n\nWhen Hogan is not out cleaning windows you can find him working as a wedding coordinator, Celebrant & MC or tending to his 3.5 acres of daffodils.`,
     },
     {
       name: 'Tyler',
       title: 'Senior Technician',
       img: tylerImg,
-      alt: 'Tyler from Duke Property Services',
+      alt: 'Tyler from Duke Property Wash',
       desc: `Tyler, the fastest blaster on the Kapiti Coast.\n\nHe knows his way around all things Exterior and can get your property looking sparkling without breaking a sweat.\n\nWhen Tyler is off the clock you can find him out on an epic 4WD adventure or making one mean cup of coffee!`,
     },
     {
