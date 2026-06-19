@@ -34,5 +34,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Business closure notice -->
+<style>
+  #closure-overlay {
+    position: fixed; inset: 0; z-index: 9999;
+    background: rgba(0,0,0,0.55);
+    display: flex; align-items: center; justify-content: center;
+    padding: 1rem;
+  }
+  #closure-box {
+    background: #fff; border-radius: 12px;
+    padding: 2rem 2.5rem; max-width: 480px;
+    width: 100%; text-align: center; font-family: sans-serif;
+  }
+  #closure-box h2 { font-size: 20px; font-weight: 600; margin: 0 0 0.75rem; color: #111; }
+  #closure-box p { font-size: 15px; color: #555; line-height: 1.6; margin: 0 0 1rem; }
+  #closure-box a { color: #1a6bb5; }
+  #closure-box .small { font-size: 13px; color: #888; margin: 0; }
+</style>
+<div id="closure-overlay">
+  <div id="closure-box">
+    <h2>Duke Property Services has closed</h2>
+    <p>Thank you to all our wonderful clients over the years — it's been a genuine pleasure serving the community.</p>
+    <p>We are no longer taking bookings. If you have an urgent query, feel free to reach out at <a href="mailto:dukeofwindows@gmail.com">hello@dukepropertyservices.co.nz</a></p>
+    <p class="small">This website will be retired in October 2025.</p>
+  </div>
+</div>
+<!-- End closure notice -->
+
   </body>
 </html>
